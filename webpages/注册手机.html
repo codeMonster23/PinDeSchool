@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>图书出版发行平台</title>
+    <link href="../css/global.css" rel="stylesheet" type="text/css">
+    <link href="../css/register.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/jquery.enplaceholder.js"></script>
+</head>
+<body>
+<!--header-->
+	<div class="registerheader">
+    	<div class="logo left"><a href="/Xinke/" target="_blank" tabindex="-1"><img src="../images/login.png" width="238" height="60" alt="品得书院"></a></div>
+        <div class="title right"></div>
+    </div>
+   <!--cont-->
+   <div class="registermain">
+    	<div class="cont">
+        	<a class="bg" style="cursor: default;" tabindex="-1"></a>
+        	<div class="register">
+            	<h1>会员注册<span>已有中国知网账号，<a href="loginxinke.aspx?p=http%3a%2f%2fmall.cnki.net%2fXinke%2f" tabindex="-1">立即登录</a></span></h1>
+                 <div class="tab">
+                 	<a href="javascript:;" class="cur">手机注册</a>
+                    <a href="javascript:;">邮箱注册</a>
+                 </div>
+                 <div class="tc tc1">
+                 	<div class="txt_wrap tel">
+                 	<label></label>
+                    <input type="text" placeholder="手机号">
+                    <span class="judge-r"></span>
+                 </div>
+                 	<p class="tip">完成验证后，您可用该手机号码登录或找回密码</p>
+                    <div class="txt_wrap psw">
+                 	<label></label>
+                    <input type="password" placeholder="密码">
+                     <span class="judge-w"></span>
+                 </div>
+                 	<p class="error">不能使用连续、重复的数字或字母，请重新输入</p>
+                    <div class="clearfix">
+                    	<div class="txt_wrap yzm left">
+                        	<label></label>
+                   			 <input type="text" placeholder="验证码">
+                    	</div>
+                        <a href="javascript:;" class="pic left"><img src="../imagesTemp/yzm.gif" width="80" height="38"></a>
+                        <a href="javascript:;" class="change left">换一张</a>
+                    </div>
+                    <p class="error">请输入验证码</p>
+                    <div class="clearfix">
+                    	<div class="txt_wrap message left">
+                        	<label></label>
+                   			 <input type="text" placeholder="短信验证码">
+                    	</div>
+                        <a href="javascript:;" class="get left">获取短信验证码</a>
+                    </div>
+                    <p class="error">请输入短信验证码</p>
+               
+                 </div>      
+                    <a class="btn" onclick="return reg()" tabindex="6">立即注册</a>
+                 	<div class="remark">
+                    	<div class="re-left ">
+                            <input type="checkbox" id="checkboxread" checked="checked" tabindex="5"><label for="checkboxread">我已阅读并同意<a href="Agreement.aspx" target="_blank" tabindex="-1">《CNKI会员注册协议》</a></label>
+                        </div>
+                    </div>
+                    <div class="wrong">请先确认阅读并同意注册协议</div> 	
+                <div class="other">
+                	<p>使用以下合作网站账号登录</p>
+                    <div class="ways">
+                    	<a class="qq" href="http://my.cnki.net/ThirdLogin/ThirdLogin.aspx?to=qq&amp;RedirectUrl=http%3a%2f%2fmall.cnki.net%2fLoginCallBack.aspx%253fp%253dhttp%25253a%25252f%25252fmall.cnki.net%25252fXinke%25252f" tabindex="-1"></a>
+                        <a class="sina" href="http://my.cnki.net/ThirdLogin/ThirdLogin.aspx?to=sina&amp;RedirectUrl=http%3a%2f%2fmall.cnki.net%2fLoginCallBack.aspx%253fp%253dhttp%25253a%25252f%25252fmall.cnki.net%25252fXinke%25252f" tabindex="-1"></a>
+                        <a class="ne" href="http://my.cnki.net/ThirdLogin/ThirdLogin.aspx?to=163&amp;RedirectUrl=http%3a%2f%2fmall.cnki.net%2fLoginCallBack.aspx%253fp%253dhttp%25253a%25252f%25252fmall.cnki.net%25252fXinke%25252f" tabindex="-1"></a>
+                        <a class="wechat" href="http://my.cnki.net/ThirdLogin/ThirdLogin.aspx?to=weixin&amp;RedirectUrl=http%3a%2f%2fmall.cnki.net%2fLoginCallBack.aspx%253fp%253dhttp%25253a%25252f%25252fmall.cnki.net%25252fXinke%25252f" tabindex="-1"></a>
+                    </div>
+            </div>
+        	<a class="bg" style="cursor: default;" tabindex="-1"></a>
+        	</div>
+        </div>
+    </div>
+ <!--footer-->
+ <div class="footerr">
+    <div class="con-left">
+        <p><span style="margin-right:20px;">主办：中国知网</span>出版：《中国学术期刊（光盘版）》电子杂志社有限公司</p>
+        <p><span style="margin-right:6px;">京ICP证040431号</span><a target="_blank" href="http://piccache.cnki.net/index/images/gb/271.jpg" style="color:#575757; text-decoration:none;">网络出版服务许可证 (总)网出证(京)字第 271 号</a></p>
+        <p><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020460">京公网安备 11010802020460号</a>&nbsp;<a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" style="color:#575757; text-decoration:none;">经营性网站备案信息</a></p>
+    </div>
+    <div class="con-right">
+        <p><span style="margin-right:20px;">咨询热线：400-819-9993</span>在线咨询：<a href="http://help.cnki.net" tabindex="-1">help.cnki.net</a></p>
+        <a target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=e13111111010043364isll000000&amp;a=1&amp;pa=0.08881110103584755" tabindex="-1"><img src="http://piccache.cnki.net/index/images/gb/cnnic.png" style="margin-left:20px; margin-right:12px;" height="37" width="99" alt="可信网站"></a>
+        <a target="_blank" href="https://search.szfw.org/cert/l/CX20140929005220005306" tabindex="-1"><img src="http://piccache.cnki.net/index/images/gb/cert.jpg" width="99" height="37" alt="诚信网站"></a>
+    </div>
+</div>
+    <script>
+		$(".txt_wrap input").focus(function(){
+			$(this).parent().addClass("active")
+			})
+		$(".txt_wrap input").blur(function(){
+			$(this).parent().removeClass("active")
+			})
+		//模拟placeholder
+	 $('.txt_wrap input').placeholder({isUseSpan:true});
+    </script>
+</body>
+</html>

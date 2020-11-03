@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*读经典*/
+.banner1{ height: 371px; min-width: 1200px; background:#C8C6D0 url(../../images/booklist/images/banner1.jpg ) no-repeat center;}
+.main{ width: 786px; margin:0 auto; margin-top:-32px; padding-top: 35px; background-color: #ffffff;}
+.famous{ padding-left: 54px; margin-bottom: 37px;}
+.main .title{ margin-bottom:35px ; text-align: center;}
+.main .title img{ display: inline-block;}
+.main .group{ padding-left: 54px;}
+.main .group p{ line-height: 36px; font-size: 16px; color: #333333; margin-bottom: 36px; font-weight: 400; font-family: "微软雅黑";}
+.main .group p span{ color: #B68358; font-weight: bold;}
+.main .group img{ margin-bottom: 42px;}
+.main .area{ margin: 0 auto 50px; width: 650px; padding: 46px 41px 0 39px; overflow: hidden; background-color: #F7F7F7;}
+.main .area .box{ margin-bottom: 55px;}
+.main .area .box .img{ padding: 1px 5px 6px 1px; background: url(../../images/booklist/images/bg1.png) no-repeat;}
+.main .area .box .info{ width: 432px;}
+.main .area .box .info h1{ font-weight: normal; line-height:42px;font-size: 18px; font-family:"Microsoft YaHei" ;}
+.main .area .box .info .author{ padding-left: 18px; background: url(../../images/booklist/images/icon1.png) no-repeat left center; line-height: 30px; font-size: 14px; color: #8E5930; margin-bottom: 5px; font-family: "微软雅黑"; }
+.main .area .box .info .author a{ color:#8E5930 ;}
+.main .area .box .info p{ line-height: 28px; font-size: 14px; letter-spacing:1px;text-align: justify; font-family: "微软雅黑";}
+.main .area .box .info p a{ color: #B68358;}
+.main .line{ margin-bottom: 46px; text-align: center;}
+.main .line img{ display: inline-block;}
+.main ul{ padding-left: 30px; padding-bottom: 20px;}
+.main ul li{ float: left; width: 169px; margin-right: 18px; margin-bottom: 10px;}
+.main ul li .img{ display: block; padding: 1px 5px 5px 1px; background: url(../../images/booklist/images/bg2.png) no-repeat;}
+.main ul li .img img {  margin-bottom: 0;}
+.main ul li p{ font-size: 14px; text-align: center; line-height: 60px; font-family: "微软雅黑";}
+/*爱自己*/
+.banner2{height: 370px; min-width: 1200px; background:#C8C6D0 url(../../images/booklist/images/banner2.jpg ) no-repeat center;}
+.main1{ padding-top: 50px; margin-bottom: 30px;}
+.main1 .title{ margin-bottom: 15px;}
+.main1 .group{ padding-left: 52px; padding-right: 52px;}
+.main1 .group p{ text-align: center; margin-bottom: 28px;}
+.main1 .group p span{ color: #A27B54;}
+.main1 .group img{ margin-bottom: 35px;}
+.main1 .read{ padding: 34px 36px 27px 45px; width: 602px; margin: 0 auto 28px; background-color: #EEF0F4;}
+.main1 .read .img{ position: relative; padding: 1px 5px 6px 1px; background: url(../../images/booklist/images/bg1.png) no-repeat;}
+.main1 .read .img .qcode{ position: absolute;right: -10px; bottom: -12px;}
+.main1 .read .info{ width: 388px; padding-top: 27px;}
+.main1 .read .info p{ text-indent: 2em;  text-align:justify;font-size: 16px; line-height: 30px;font-family:"Microsoft YaHei" ; margin-bottom: 26px;}
+.main1 .group .p{ text-align:justify; text-indent: 2em; margin-bottom: 5px; color: #333333;}
+.main1 ul{ margin-top: 42px; padding-bottom: 30px;}
+.main1 ul li{ margin-bottom: 18px;}
+
+/* 2019.4.26 yy */
+.banner3 {
+    height: 356px;
+    min-width: 1200px;
+    background: #C8C6D0 url(../../images/booklist/images/banner3.jpg) no-repeat center;
+}
+.banner4 {
+    height: 356px;
+    min-width: 1200px;
+    background: #C8C6D0 url(../../images/booklist/images/banner4.jpg) no-repeat center;
+}
+.banner5 {
+    height: 356px;
+    min-width: 1200px;
+    background: #C8C6D0 url(../../images/booklist/images/banner5.jpg) no-repeat center;
+}
+.banner6 {
+    height: 356px;
+    min-width: 1200px;
+    background: #C8C6D0 url(../../images/booklist/images/banner6.jpg) no-repeat center;
+}
+.banner7 {
+    height: 356px;
+    min-width: 1200px;
+    background: #C8C6D0 url(../../images/booklist/images/banner7.jpg) no-repeat center;
+}
+.banner8 {
+    height: 356px;
+    min-width: 1200px;
+    background: #C8C6D0 url(../../images/booklist/images/banner8.jpg) no-repeat center;
+}
+.main1 .group p span {
+    color: #A27B54;
+}
+.main2 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.main2 .group p {
+    text-align: center;
+    margin-bottom: 28px;
+}
+.main2 .group p span {
+    color: #9e2654;
+}
+.main2 .group p span.orange {
+    color: #e86700;
+}
+.main2 .book li{
+    height:308px;
+}
+.main2 .book li p {
+    line-height: 24px;
+    /*padding: 0 7px;*/
+    margin: 15px 0;
+}
+
+.main2 .group .titleFrame { background-repeat: no-repeat; -webkit-background-size: 100% 100%; background-size: 100% 100%; height:65px; line-height: 65px; margin-left: auto; margin-right: auto; font-size:20px;}
+.main2 .group .titleFrame1 { background-image: url("../../images/booklist/images/a1.jpg"); width: 326px; }
+.main2 .group .titleFrame2 { background-image: url("../../images/booklist/images/a1.jpg"); width: 426px; }
+.main2 .group .titleFrame3 { background-image: url("../../images/booklist/images/a1.jpg"); width: 426px; }
+.main2 .group .titleFrame4 { background-image: url("../../images/booklist/images/a1.jpg"); width: 570px; }
+.main2 .group .titleFrame5 { background-image: url("../../images/booklist/images/a1.jpg"); width: 600px; }
+.main2 .group .titleFrame3 span,.main2 .group .titleFrame4 span,.main2 .group .titleFrame5 span { color:#e86700; font-size:24px; font-weight: normal; }
+.main .group .img5, .main .group .a2 { margin-right: 0; max-width: 720px; margin-left:auto; margin-right:auto;}
+.main .group1 { padding-left:0;}
+.main4 .book li p { font-size:12px;}
+
+.main .p1 { background:url("../../images/booklist/images/cc1.jpg") center center; width:724px; height:745px; margin-left:30px; overflow: hidden; font-family: 微软雅黑; background-size: 100% 100%;}
+.main .p1 .order { color:#fff; font-size:30px; margin-top:48px; padding-left:47px;}
+.main .p1 .content { line-height:30px; font-size:18px; color:#333; padding-top:60px; padding-left:60px;}
+.main .p1-bge {background:url("../../images/booklist/images/e1.jpg") center center; height:973px;}
+.main .p1-bge-a {background:url("../../images/booklist/images/e1-a.jpg") center center; height:1102px;}
+.main .p1-bge-b {background:url("../../images/booklist/images/e1-b.jpg") center center; height:854px;}
+.main .p1-bge-c {background:url("../../images/booklist/images/e1-c.jpg") center center; height:436px;}
+.main .p1-bge .content { padding-right:50px; font-family: "仿宋", "宋体"; line-height:33px;}
+
+.main .p2 { background:url("../../images/booklist/images/cc2.jpg") center center; position: relative; width:756px; height:409px; margin-left:30px; margin-top:38px;font-family: 微软雅黑; }
+.main .p2 .title { color:#333; font-weight: bold; font-size:24px;text-align: left; padding-top:70px; padding-left:20px;}
+.main .p2 .text { font-size:16px; color:#333; line-height:26px; padding-top:20px; padding-left:20px; text-indent: 2em;}
+.main .p2 a { position:absolute; width:203px; height:287px; right:82px; top:44px;}
+
+.main .p2-bge { background:url("../../images/booklist/images/e3.jpg") center center no-repeat;}
+.main .p2-bge a { position:absolute; width:203px; height:287px; right:78px; top:51px;}
+.main .p2-bge .text { font-size:16px; color:#333; line-height:30px; padding-top:30px; padding-left:48px; text-indent: 2em; width:454px; font-family: 宋体;}
+.main .p2-bge .title { color:#333; font-weight: bold; font-size:24px;text-align: left; padding-top:70px; padding-left:20px; width:370px; padding-left:84px; }
+.main .p2-bge .sub-title { color:#333; font-weight: bold; font-size:16px;text-align: left; padding-top:20px; padding-left:20px; width:370px; padding-left:84px; font-family: 微软雅黑 }
+
+.main .p3 { width:100%; padding:30px 0;}
+.main .p3 .box { float: left;  width:242px; height:350px; margin:35px 10px 0 10px; _display:inline;}
+.main .p3 .box-e { background:url("../../images/booklist/images/e4.jpg") no-repeat 22px 1px;}
+.main .p3 .box a { display: block;}
+.main .p3 .box .img { text-align: center; }
+.main .p3 .box .img img { display: inline; width:203px; height:287px; }
+.main .p3 .box-e .img img { display: inline; width:203px; height:287px; border:1px solid #ccc;}
+.main .p3 .box .name { font-size:15px; line-height:54px; height:54px; overflow:hidden; text-align: center;}
+
+.booklist7-ewm { left:50%; margin-left:396px; background:url("../../images/booklist/images/cc6.jpg") no-repeat center center; width:154px; height:198px;}
+.booklist7-ewm1 { position:fixed; bottom:0; }
+.booklist7-ewm2 { position:absolute; bottom:254px; }

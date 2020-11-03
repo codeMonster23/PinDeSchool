@@ -1,0 +1,91 @@
+@charset "utf-8";
+body { font-family: 微软雅黑;}
+.width1024Auto {width: 1204px; margin: 0 auto;}
+
+.banner { height:216px; background:url("../../images/channel/channel1-banner.jpg") center center;}
+
+.classify { background:#edeff0; border-top:6px solid #0a5551;  }
+.classify .c { font-size:14px;  padding:12px 0; line-height:32px; border-bottom:1px solid #c8c9c9; text-align:center; overflow: hidden; position: relative; }
+.classify .cNormal { height:32px; }
+.classify .cAuto { height:auto; }
+.classify .c .title { font-weight:bold; color:#333333; width:80px; float: left;}
+.classify .c .content {float: left; width: 1040px; white-space: nowrap; }
+.classify .c .content .item {float: left; color:#333333; padding:0 14px; margin-bottom: 8px; margin-right:2px;}
+.classify .c .content .currentItem,.classify .c .content .item:hover { color:#fff; background-color:#037639;}
+.classify .c .more {float: left; color:#037639; text-align: left; width: 80px; position:absolute; right: 0px; bottom:10px;}
+.classify .c .moreA { background:url("../../images/channel/channel2-unfold.jpg") no-repeat 32px center; }
+.classify .c .moreB { background:url("../../images/channel/channel2-fold.jpg") no-repeat 32px center; }
+
+.time-order { padding:14px 0; height:26px; text-align:center;}
+.time-order a { color:#0a5551; float: right; width:55px; height:24px; margin-left:8px; line-height:24px; border:1px solid #0a5551; }
+.time-order a.current { color:#fff; background-color:#0a5551;  _display:inline;}
+
+.box { border:1px solid #b8b4b5; border-bottom:none; background:url("../../images/channel/channel3.jpg") repeat; width:1202px;}
+.box .cell { width:199px; margin:1px; height:294px; padding-left:40px; padding-top:22px; float:left; }
+.box .cellOn { border:1px solid #037639; background:#e1fee3; margin:0; }
+.box .cellLast { width: 196px;}
+.box .cell a { display: block; width: 162px;}
+.box .cell .img { background:url("../../images/channel/channel4.jpg") no-repeat center center; height: 231px;}
+.box .cell .name { font-size:14px; color:#333333; line-height: 30px; height:30px; overflow:hidden;}
+.box .cell .author { color:#a8a9a9;line-height: 20px; height:20px; overflow:hidden;}
+
+.hot-books-banner { height:121px; background:url("../../images/channel/channel5-banner.jpg") center center;}
+
+.hot-books { width:1246px; border:1px solid #e4e3df; background:#fbfaf8;text-align: center; margin-top:12px;}
+.hot-books .sort { float: left; width: 238px;}
+.hot-books .sort .title { height:60px; background-color:#01815e; line-height:60px; color:#fff; font-size:16px; font-weight: bold;}
+.hot-books .sort .items { }
+.hot-books .sort .items a { height:59px; line-height:59px; border-bottom:1px solid #e4e3df; color:#01815e; display: block; font-size:16px; overflow: hidden; padding: 0 5px;}
+.hot-books .sort .items a.current,.hot-books .sort .items a:hover {font-weight: bold; background-color:#01815e; color:#fff;}
+.hot-books .content { float:left; width:1007px; border-left:1px solid #e4e3df; }
+.hot-books .content .rank-sort { height:47px; padding-top:13px; padding-right:26px;}
+.hot-books .content .rank-sort a { float:right; width:100px; height:34px; border:1px solid #01815e; text-align: center; line-height:34px; color:#01815e; margin-left:14px; }
+.hot-books .content .rank-sort a.current,.hot-books .content .rank-sort a:hover { background:#01815e; color:#fff; }
+.hot-books .content .books { width:100%; text-align: left; padding-top:15px;}
+.hot-books .content .books .book { border:1px solid #e4e3df; float:left; width:226px; height:382px; margin: 0 11px 30px 11px; _display:inline;}
+.hot-books .content .books .book .img { padding-top:16px; padding-bottom:10px; text-align: center; display: block }
+.hot-books .content .books .book .img img {display: inline; -webkit-border-radius: 10px;  -moz-border-radius: 10px; border-radius: 10px;}
+.hot-books .content .books .book .name { padding:0 10px; font-size:16px; color:#333; line-height:30px; font-weight:bold; display: block; height:30px; overflow:hidden;}
+.hot-books .content .books .book .author { padding:0 10px; font-size:12px; color:#585858; line-height:30px; height:30px; overflow: hidden; display: block }
+.hot-books .content .books .book .intro { padding:0 10px; font-size:12px; color:#585858; line-height:20px; height:60px; overflow: hidden; }
+
+.selected-books-banner { height:117px; background:url("../../images/channel/channel7.banner.jpg") center center;}
+.selected-books { width:1248px; background:#fff; padding-top:51px;}
+.selected-books .all { width: 100%;}
+.selected-books .wrapper { float:left; border:1px solid #d4d8d8; padding:12px 13px; margin:0 19px 17px 19px; _display:inline; width:558px;}
+.selected-books .wrapper .img {  display:block;}
+.selected-books .wrapper .name {display:block; font-size:16px; font-weight:bold; color:#2b2b2b; text-align: center; line-height: 40px; padding-top:10px; height:40px; overflow: hidden; text-align: left;}
+
+.book-share-banner { height:125px; background:url("../../images/channel/channel8-1.jpg") center center; }
+.book-share { border:1px solid #e4e3df;  -webkit-border-radius: 10px;  -moz-border-radius: 10px;  border-radius: 10px; width:1199px; margin-top:17px; background-color:#fff; }
+.book-share .p1 { width:828px; padding-left:35px; padding-right:32px; padding-top:50px; background-color:#fff;-webkit-border-top-left-radius: 10px;  -moz-border-top-left-radius: 10px;  border-top-left-radius: 10px; -webkit-border-bottom-left-radius: 10px;  -moz-border-bottom-left-radius: 10px;  border-bottom-left-radius: 10px}
+.book-share .p1 .block { width:828px; border-bottom: 1px solid #c4c8c8; margin-bottom:38px; padding-bottom:20px;}
+.book-share .p1 .shelf { width:232px; }
+.book-share .p1 .shelf .pic { background:url("../../images/channel/channel8-4.jpg") no-repeat center center; height:219px; display:block; padding-left:46px; }
+.book-share .p1 .shelf .name { color:#313131; font-size:14px; font-weight:bold; line-height:30px; height:30px; overflow: hidden; text-align: center;display:block; }
+.book-share .p1 .info { width:596px; }
+.book-share .p1 .info .author { border-bottom:1px dashed #d7d7d7; padding-bottom:5px; }
+.book-share .p1 .info .author .avatar {  width:57px; height:57px; }
+.book-share .p1 .info .author .avatar img {  width:57px; height:57px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+.book-share .p1 .info .author .about { width: 529px; padding:0 0px 0 10px; font-size:14px; }
+.book-share .p1 .info .author .about .author-name { color:#212121; display:block; line-height:30px; }
+.book-share .p1 .info .author .about .words { font-size:16px; font-weight:bold; color:#313131; display:block; line-height:30px; padding-bottom:5px; }
+.book-share .p1 .info .author .about .words-intro { color:#585858;line-height:24px; }
+.book-share .p1 .info .author .about .words-intro a { color:#355496; }
+.book-share .p1 .info ul {padding-left:63px;}
+.book-share .p1 .info ul li { border-left:4px solid #f37a41; height:16px; line-height:16px; overflow:hidden; margin-top:15px; padding-left:10px; }
+.book-share .p1 .info ul li a { color:#355496; font-size:14px; }
+.book-share .p2 { border-left:1px solid #e4e3df; width:303px; background-color:#fbfaf6; -webkit-border-top-right-radius: 10px; -moz-border-top-right-radius: 10px; border-top-right-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-border-bottom-right-radius: 10px; border-bottom-right-radius: 10px; }
+.book-share .p2 .block {   }
+.book-share .p2 .block .title { color:#1d7255; font-size:22px; font-weight:bold; margin:0 25px; line-height:52px; border-bottom:4px solid #1d7255; position: relative; }
+.book-share .p2 .block .title a { position:absolute; right:0; bottom:12px; color:#355496; font-size:12px; line-height:20px; font-family: "宋体"; font-weight:normal;}
+.book-share .p2 .block .content { padding-bottom:25px; }
+.book-share .p2 .block .content a { display:block; text-align: center; margin-top:16px;  }
+.book-share .p2 .block .content a img { display:inline; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.book-share .p2 .block .content-style2 { padding-left:5px;  }
+.book-share .p2 .block .content .k {  width:106px; margin: 0 21px; padding-bottom:10px;}
+.book-share .p2 .block .content .k a {  display: block;}
+.book-share .p2 .block .content .k .pic { }
+.book-share .p2 .block .content .k .pic img {  width:106px; height:142px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.book-share .p2 .block .content .k .name { line-height:30px; height:30px; overflow: hidden;}
+

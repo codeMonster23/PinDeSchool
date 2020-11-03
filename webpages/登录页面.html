@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>图书出版发行平台</title>
+    <link href="../css/global.css" rel="stylesheet" type="text/css">
+    <link href="../css/register.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/jquery.enplaceholder.js"></script>
+</head>
+<body>
+<!--header-->
+	<div class="loginheader">
+    	<div class="logo left"><a href="/Xinke/" target="_blank" tabindex="-1"><img src="../images/login.png" width="238" height="60" alt="品得书院"></a></div>
+        <div class="title right"></div>
+    </div>
+   <!--cont-->
+   <div class="loginmain">
+    	<div class="cont">
+        	<a class="bg" style="cursor: default;" tabindex="-1"></a>
+        	<div class="login">
+            	<h1>会员登录<a href="registerxinke.aspx?p=http%3a%2f%2fmall.cnki.net%2fXinke%2f" tabindex="-1">立即注册</a></h1>                
+                    <div class="name txt_wrap">
+                    	<label for="txtUserName"></label>
+                        <input name="txtUserName" type="text" id="txtUserName" tabindex="1" class="input_txt" errortag="yzm-error" errorempty="请输入用户名" placeholder="用户名（中国知网会员可直接登录）" autocomplete="off">
+                    </div>
+                    <div class="error-wrap">
+                        <div class="info-error name-error">请输入用户名</div>
+                    </div>
+                    <div class="psw txt_wrap">
+                    	<label for="txtPassword"></label>
+                        <input name="txtPassword" type="password" id="txtPassword" tabindex="2" class="input_txt" errortag="yzm-error" errorempty="请输入密码" autocomplete="false" placeholder="密  码">
+                    </div>
+                   	<div class="error-wrap"> 
+                        <div class="info-error psw-error">请输入密码</div>
+                    </div>
+                    <div class="yzm-wrap" id="yzm-div" style="display: none;">
+                    	<div class="yzm-info clearfix">
+                        <div class="yzm txt_wrap ">
+                            <label for="txtValid"></label><span class="hint">验证码</span>
+                            <input name="txtValid" type="text" id="txtValid" tabindex="3" class="input_txt" errortag="yzm-error" errorempty="请输入验证码">
+                        </div>
+                        <a onclick="href1()" tabindex="-1"><img class="img" id="Imagereg1" width="66" height="25" border="0" src="" alt="验证码"></a>
+                        <a class="change" onclick="href1()" tabindex="-1">看不清换一张</a>
+                        </div>
+                    </div> 
+                    <div class="error-wrap" id="yzm-loign-div" style="display: none;">
+                        
+                        <div class="info-error yzm-error">验证码错误，请重新输入</div>
+                        <div class="info-error login-error" style="display:none;">用户名和密码不匹配，请重新输入，<a href="registerxinke.aspx?p=http%3a%2f%2fmall.cnki.net%2fXinke%2f" tabindex="-1">忘记用户名或密码？</a></div>
+                    </div>                   
+                    <a class="btn" onclick="login()" tabindex="5"><span class="deng">登</span><span class="lu">录</span></a>
+                    <div class="remark">
+                    	<div class="re-left left"><input type="checkbox" id="checktext" checked="checked" tabindex="-1">&nbsp;<label for="checktext">记住用户名</label>
+                        </div>
+            			<div class="re-right right"><a href="http://my.cnki.net/mycnki/mycnkiFandPassword.htm" target="_blank" tabindex="4">忘记账号或密码？</a><a class="blue" href="registerxinke.aspx?p=http%3a%2f%2fmall.cnki.net%2fXinke%2f" tabindex="-1">立即注册</a></div>
+                    </div>
+                <div class="other">
+                	<p>使用以下合作网站账号登录：</p>
+                    <div class="ways">
+                    	<a class="qq" href="http://my.cnki.net/ThirdLogin/ThirdLogin.aspx?to=qq&amp;RedirectUrl=http%3a%2f%2fmall.cnki.net%2fLoginCallBack.aspx%3fp%3dhttp%253a%252f%252fmall.cnki.net%252fXinke%252f" tabindex="-1"></a>
+                        <a class="sina" href="http://my.cnki.net/ThirdLogin/ThirdLogin.aspx?to=sina&amp;RedirectUrl=http%3a%2f%2fmall.cnki.net%2fLoginCallBack.aspx%3fp%3dhttp%253a%252f%252fmall.cnki.net%252fXinke%252f" tabindex="-1"></a>
+                        <a class="ne" href="http://my.cnki.net/ThirdLogin/ThirdLogin.aspx?to=163&amp;RedirectUrl=http%3a%2f%2fmall.cnki.net%2fLoginCallBack.aspx%3fp%3dhttp%253a%252f%252fmall.cnki.net%252fXinke%252f" tabindex="-1"></a>
+                        <a class="wechat" href="http://my.cnki.net/ThirdLogin/ThirdLogin.aspx?to=weixin&amp;RedirectUrl=http%3a%2f%2fmall.cnki.net%2fLoginCallBack.aspx%3fp%3dhttp%253a%252f%252fmall.cnki.net%252fXinke%252f" tabindex="-1"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!--footer-->
+ <div class="footerr">
+    <div class="con-left">
+        <p><span style="margin-right:20px;">主办：中国知网</span>出版：《中国学术期刊（光盘版）》电子杂志社有限公司</p>
+        <p><span style="margin-right:6px;">京ICP证040431号</span><a target="_blank" href="http://piccache.cnki.net/index/images/gb/271.jpg" style="color:#575757; text-decoration:none;">网络出版服务许可证 (总)网出证(京)字第 271 号</a></p>
+        <p><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020460">京公网安备 11010802020460号</a>&nbsp;<a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" style="color:#575757; text-decoration:none;">经营性网站备案信息</a></p>
+    </div>
+    <div class="con-right">
+        <p><span style="margin-right:20px;">咨询热线：400-819-9993</span>在线咨询：<a href="http://help.cnki.net" tabindex="-1">help.cnki.net</a></p>
+        <a target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=e13111111010043364isll000000&amp;a=1&amp;pa=0.08881110103584755" tabindex="-1"><img src="http://piccache.cnki.net/index/images/gb/cnnic.png" style="margin-left:20px; margin-right:12px;" height="37" width="99" alt="可信网站"></a>
+        <a target="_blank" href="https://search.szfw.org/cert/l/CX20140929005220005306" tabindex="-1"><img src="http://piccache.cnki.net/index/images/gb/cert.jpg" width="99" height="37" alt="诚信网站"></a>
+    </div>
+</div>
+    <script>
+		$(".txt_wrap input").focus(function(){
+			$(this).parent().addClass("active")
+			})
+		$(".txt_wrap input").blur(function(){
+			$(this).parent().removeClass("active")
+			})
+		//模拟placeholder
+	 $('.txt_wrap input').placeholder({isUseSpan:true});
+    </script>
+</body>
+</html>

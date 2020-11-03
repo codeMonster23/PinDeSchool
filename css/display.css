@@ -1,0 +1,387 @@
+
+body{
+	position: relative;
+	background:#080d32 url(../images/display-bg.jpg) top center no-repeat;
+}
+.container{
+	width: 1340px;
+	min-width: 1340px;
+	margin: 0 auto;
+}
+.header a{
+	cursor: default !important;
+}
+.header{
+	height: 40px;
+	padding-top: 9px;
+	margin-bottom: 45px;
+	background-color: #494949;
+}
+.header a{
+	color:#ebebeb;
+	font-size: 14px;
+}
+.logo{
+	float: left;
+	width: 143px;
+	margin-left: 35px;
+	margin-right: 78px;
+}
+.btn-group{
+	float: left;
+	margin-right: 22px;
+}
+.header .btn{
+	float: left;
+	width: 70px;
+	height: 27px;
+	line-height: 27px;
+	margin-right: 3px;
+	border: 1px solid #3b3b3b;
+	border-radius: 3px;
+	background-color: #5f5f5f;
+}
+.header .btn-group1 .btn,.header  .btn3{
+	width: 42px;
+	padding-left: 28px;
+	background: #5f5f5f url(../images/header-btn1.png) 10px center no-repeat;
+}
+.header .btn-group1 .btn2{
+	background-image:url(../images/header-btn2.png) ;
+}
+.header .btn3{
+	background: #5f5f5f url(../images/header-btn3.gif) 12px center no-repeat;
+}
+.header .btn4{
+	width: 52px;
+	padding-left: 18px;
+	background: #5f5f5f url(../images/header-btn4.gif) 7px center no-repeat;
+}
+.header .btn.btn5{
+	width: 106px;
+	height: 27px;
+	background-color: none;
+	color:#cacaca;
+}
+.header .btn5 .btn-input{
+	float: left;
+	width: 58px;
+	height: 19px;
+	line-height: 19px;
+	padding: 4px;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+}
+.header .btn5 span{
+	float: left;
+}
+.header .btn5 input{
+	float: left;
+	width: 26px;
+	height: 19px;
+	background-color: #404040;
+	color:#cacaca;
+}
+.header .btn5 a{
+	float: left;
+	width: 38px;
+	border-left: 1px solid #3b3b3b;
+	text-align: center;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+}
+.header .btn6,.header .btn7{
+	width: 58px;
+	padding-left: 12px;
+}
+.header .btn6{
+	background: #5f5f5f url(../images/header-btn6.gif) 58px center no-repeat;
+}
+.header .btn7{
+	background: #5f5f5f url(../images/header-btn7.gif) 49px center no-repeat;
+}
+.header .btn-group3 .btn{
+	text-align: center;
+}
+.header .btn10{
+	width: 65px;
+	padding-left: 25px;
+	background: #ebebeb url(../images/header-btn10.gif) 7px center no-repeat;
+	color:#494949;
+}
+.header-r{
+	margin-right: 66px;
+}
+.header-r a{
+	height: 29px;
+	line-height: 29px;
+}
+.header-r span{
+	line-height: 29px; 
+	font-size:16px; 
+	margin:0 8px; 
+	color:#cacaca; 
+}
+.main{
+	position:relative;
+}
+.content{
+	position: relative;
+	width: 950px;
+	height: 676px;
+	margin: 0 auto;
+}
+.shadow{
+	position: absolute;
+	left:50%;
+	margin-left: 3px;
+	width: 24px;
+	height: 676px;
+	background:  url(../images/book-shadow.png) no-repeat;
+}
+.con_left{
+	width: 490px;
+	height: 676px;
+}
+.con_right{
+	width: 460px;
+	height: 676px;
+}
+.content .left_btns .btn,.content .right_btns .btn{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	background: #737373;
+	color:#efefef;
+	font-size: 16px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.content .left_btns{
+	position: absolute;
+	top:0;
+	left:-32px;
+	width: 16px;
+}
+.content .left_btns .btn{
+	height: 48px;
+    line-height: 1;
+	padding:16px 8px 0;
+}
+.content .left_btns .btn.cur{
+	background: #ec6627;
+}
+.content .left_btns .btn1{
+	top:0;
+}
+.content .left_btns .btn2{
+	top:76px;
+}
+.content .left_btns .btn3{
+	top:150px;
+}
+.content .right_btns {
+	position: absolute;
+	top:0;
+	right:-42px;
+	width: 36px;
+}
+.content .right_btns .btn{
+	height: 36px;
+    line-height: 36px;
+}
+.content .right_btns .btn2{
+	top:48px;
+}
+.content .right_btns li{
+	position: relative;
+}
+.content .popover{
+	display: none;
+}
+.content .popover a{
+	color: #f5c051;
+}
+.content .left_btns .popover1{
+	position: absolute;
+	top:0;
+	left:-201px;
+	width: 201px;
+	height: 287px;
+	background: url(../images/popover1.png) no-repeat;
+}
+.content .left_btns .popover1 .list{
+	padding-top: 130px;
+	padding-left: 8px;
+}
+.content .left_btns .popover1 .list a{
+	display: block;
+	line-height: 24px;
+}
+.content .left_btns .popover1 .more{
+	position: absolute;
+	right:15px;
+	bottom:15px;
+}
+.content .left_btns .popover1 .goDetail{
+	position: absolute;
+	right:18px;
+	top:104px;
+}
+.content .right_btns li .popover{
+	position: absolute;
+	top:0;
+	left:36px;
+}
+.content .right_btns .popover3 a{
+	position: absolute;
+	top:230px;
+	left:16px;
+}
+.content .right_btns .popover .more{
+	top:272px;
+	left:80px;
+}
+.copyright{
+	margin-top: 33px;
+	text-align: center;
+	/*color:#fff;*/
+	color:rgba(255,255,255,.2);
+}
+.bottombar{
+	display: none;
+	position: fixed;
+	left:50%;
+	margin-left: -171px;
+	bottom:0;
+	width: 343px;
+	height: 122px;
+	background: url(../images/bottombar.png) no-repeat;
+}
+.bottombar .iconWrap .fold{
+	position: absolute;
+	left:50%;
+	margin-left: -11px;
+	top:90px;
+	width: 22px;
+	height: 22px;
+}
+.bottombar .iconWrap a{
+	position: absolute;
+	width: 34px;
+	height: 34px;
+}
+.bottombar .iconWrap a.icon1{
+	left:46px;
+	top:68px;
+}
+.bottombar .iconWrap a.icon2{
+	left:114px;
+	top:27px;
+}
+.bottombar .iconWrap a.icon3{
+	left:194px;
+	top:26px;
+}
+.bottombar .iconWrap a.icon4{
+	left:260px;
+	top:68px;
+}
+.bottombar .modal{
+	position: absolute;
+	display: none;
+	color: #fff;
+}
+.bottombar .modal a{
+	line-height: 24px;
+	color: #fff;
+}
+.bottombar .modal1{
+	left:-306px;
+	bottom:28px;
+	width: 305px;
+	height: 276px;
+	background: url(../images/modal1.png) no-repeat;
+}
+.bottombar .modal1 .title{
+	padding-top: 64px;
+	line-height: 31px;
+}
+.bottombar .modal1 .avatar{
+	width: 31px;
+	height: 31px;
+	border-radius: 50%;
+	margin-left: 28px;
+	margin-right: 9px;
+}
+.bottombar .modal1 .name{
+	margin-right: 5px;
+}
+.bottombar .modal1 .intro{
+	width: 240px;
+	line-height: 24px;
+	margin: 6px 18px 0;
+}
+.bottombar .modal1 .source{
+	margin-right: 65px;
+	text-align: right;
+}
+.bottombar .modal1 .source a{
+	color: #001564;
+}
+.bottombar .modal2{
+	left:-83px;
+	top:-300px;
+	width: 277px;
+	height: 324px;
+	background: url(../images/modal2.png) no-repeat;
+}
+.bottombar .modal3{
+	left:150px;
+	top:-300px;
+	width: 276px;
+	height: 324px;
+	background: url(../images/modal3.png) no-repeat;
+}
+.bottombar .modal2 .list,.bottombar .modal3 .list{
+	padding-top: 66px;
+}
+.bottombar .modal2 li,.bottombar .modal3 li{
+	padding-left: 26px;
+}
+.bottombar .modal4{
+	left:335px;
+	bottom:28px;
+	width: 304px;
+	height: 276px;
+	background: url(../images/modal4.png) no-repeat;
+	text-align: center;
+}
+.bottombar .modal4 .list{
+	padding-top: 70px;
+}
+.bottombar .modal4  a{
+	margin-left: 10px;
+}
+.bottombar .modal .more{
+	position: absolute;
+	bottom:20px;
+	left:50%;
+	margin-left: -28px;
+}
+.bottombar .modal2 .more,.bottombar .modal3 .more{
+	bottom:66px;
+}
+.bottombar .modal1 .more{
+	margin-left: -60px;
+}
+.unfold{
+	position: fixed;
+	bottom:10px;
+	left:50%;
+	margin-left: -40px;
+	width: 80px;
+	height: 80px;
+	background: url(../images/unfold.png) no-repeat;
+}

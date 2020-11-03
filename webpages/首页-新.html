@@ -1,0 +1,1401 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>图书出版发行平台</title>
+    <link href="../css/global.css" rel="stylesheet" type="text/css">
+    <link href="../css/platform.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/placeholder.js"></script>
+    <script src="../js/carousel.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="w1200Auto clearfix">
+            <div class="left logo"><a target="_blank" href="http://cnki.net">中国知网</a></a></div>
+            <div class="right">
+                <a target="_blank" href="">登录</a>|<a target="_blank" href="">注册</a>|<a target="_blank" href="">购物车</a>|<a target="_blank" href="">数字书房</a>|<a target="_blank" href="">阅读器</a>
+            </div>
+        </div>
+    </div>
+    <div class="new-topBanner">
+        <div class="w1200Auto clearfix">
+            <div class="left booklogo"><a target="_blank" href=""></a></div>
+            <div class="search-words left">
+                <div class="logoWords"></div>
+                <div class="topSearch clearfix">
+                    <input type="text" placeholder="请输入图书名称">
+                    <div class="dropdown">
+                        <p>书名</p>
+                        <ul>
+                            <li><a target="_blank" href="">书名</a></li>
+                            <li><a target="_blank" href="">作者</a></li>
+                            <li><a target="_blank" href="">出版社</a></li>
+                        </ul>
+                    </div>
+                    <a target="_blank" href="" class="searchBtn">搜索</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- <div class="banner"></div> -->
+    <div class="main w1200Auto clearfix">
+        <div class="topWrapper clearfix">
+            <div class="left menu">
+                <h1>图书导航</h1>
+                <div class="item first">
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=A&amp;classcodeGrade=1">文学艺术</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A01&amp;classcodeGrade=2">小说</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A02&amp;classcodeGrade=2">剧本</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A03&amp;classcodeGrade=2">曲艺</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A04&amp;classcodeGrade=2">诗</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A05&amp;classcodeGrade=2">词</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A06&amp;classcodeGrade=2">曲</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A07&amp;classcodeGrade=2">散文</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A08&amp;classcodeGrade=2">杂文</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A09&amp;classcodeGrade=2">对联</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A10&amp;classcodeGrade=2">书法</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=A11&amp;classcodeGrade=2">绘画</a></li>
+<!--                        <li><a href="/newbook/Search?classcode=A12&amp;classcodeGrade=2">摄影</a></li>
+                            <li><a href="/newbook/Search?classcode=A13&amp;classcodeGrade=2">雕塑/雕刻</a></li>
+                            <li><a href="/newbook/Search?classcode=A14&amp;classcodeGrade=2">音乐/舞蹈</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A01&amp;classcodeGrade=2">小说</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0101&amp;classcodeGrade=3">微型</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0102&amp;classcodeGrade=3">短篇</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0103&amp;classcodeGrade=3">中篇</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0104&amp;classcodeGrade=3">长篇</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A02&amp;classcodeGrade=2">剧本</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0201&amp;classcodeGrade=3">戏曲</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0202&amp;classcodeGrade=3">话剧</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0203&amp;classcodeGrade=3">歌剧</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0204&amp;classcodeGrade=3">舞剧</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0205&amp;classcodeGrade=3">电影</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0206&amp;classcodeGrade=3">电视剧</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A03&amp;classcodeGrade=2">曲艺</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0301&amp;classcodeGrade=3">评书</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0302&amp;classcodeGrade=3">相声</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0303&amp;classcodeGrade=3">快板</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0304&amp;classcodeGrade=3">说唱鼓曲</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A04&amp;classcodeGrade=2">诗</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0401&amp;classcodeGrade=3">古体</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0402&amp;classcodeGrade=3">近体诗</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0403&amp;classcodeGrade=3">自由体</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A05&amp;classcodeGrade=2">词</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0501&amp;classcodeGrade=3">古体</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0502&amp;classcodeGrade=3">自由体</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A06&amp;classcodeGrade=2">曲</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0601&amp;classcodeGrade=3">杂剧</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0602&amp;classcodeGrade=3">散曲</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A07&amp;classcodeGrade=2">散文</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0701&amp;classcodeGrade=3">古体散文</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0702&amp;classcodeGrade=3">现代散文</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A08&amp;classcodeGrade=2">杂文</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0801&amp;classcodeGrade=3">议论文</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0802&amp;classcodeGrade=3">叙事文</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A09&amp;classcodeGrade=2">对联</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0901&amp;classcodeGrade=3">古体</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A0902&amp;classcodeGrade=3">自由体</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A10&amp;classcodeGrade=2">书法</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1001&amp;classcodeGrade=3">甲骨文</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1002&amp;classcodeGrade=3">钟鼎文</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1003&amp;classcodeGrade=3">毛笔字</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1004&amp;classcodeGrade=3">硬笔字</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1005&amp;classcodeGrade=3">美术字</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A11&amp;classcodeGrade=2">绘画</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1101&amp;classcodeGrade=3">中国画</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1102&amp;classcodeGrade=3">油画</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1103&amp;classcodeGrade=3">版画</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1104&amp;classcodeGrade=3">水彩画</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1105&amp;classcodeGrade=3">素描</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1106&amp;classcodeGrade=3">其他绘画</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A12&amp;classcodeGrade=2">摄影</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1201&amp;classcodeGrade=3">中国摄影</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1202&amp;classcodeGrade=3">世界摄影</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A13&amp;classcodeGrade=2">雕塑/雕刻</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1301&amp;classcodeGrade=3">石雕</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1302&amp;classcodeGrade=3">铜雕</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1303&amp;classcodeGrade=3">木雕</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1304&amp;classcodeGrade=3">其它雕刻</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=A14&amp;classcodeGrade=2">音乐/舞蹈</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=A1401&amp;classcodeGrade=3">音乐</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="item">
+
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=B&amp;classcodeGrade=1">史录;传记</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=B01&amp;classcodeGrade=2">档案</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=B02&amp;classcodeGrade=2">传记</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=B03&amp;classcodeGrade=2">考证</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=B04&amp;classcodeGrade=2">年鉴</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=B05&amp;classcodeGrade=2">方志</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=B06&amp;classcodeGrade=2">散记</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=B07&amp;classcodeGrade=2">碑文</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=B08&amp;classcodeGrade=2">实录</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none; top: 50%; margin-top: -122.5px;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=B01&amp;classcodeGrade=2">档案</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0101&amp;classcodeGrade=3">建国前档案</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0102&amp;classcodeGrade=3">建国后档案</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=B02&amp;classcodeGrade=2">传记</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0201&amp;classcodeGrade=3">中国传记</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0202&amp;classcodeGrade=3">外国传记</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=B03&amp;classcodeGrade=2">考证</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0301&amp;classcodeGrade=3">考据</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0302&amp;classcodeGrade=3">史料</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0303&amp;classcodeGrade=3">论证</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=B04&amp;classcodeGrade=2">年鉴</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0401&amp;classcodeGrade=3">中国年鉴</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0402&amp;classcodeGrade=3">世界年鉴</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=B05&amp;classcodeGrade=2">方志</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0501&amp;classcodeGrade=3">全国性总志</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0502&amp;classcodeGrade=3">地方志书</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0503&amp;classcodeGrade=3">史志</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=B06&amp;classcodeGrade=2">散记</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0601&amp;classcodeGrade=3">散记</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0602&amp;classcodeGrade=3">个人日记</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0603&amp;classcodeGrade=3">族谱家谱</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0604&amp;classcodeGrade=3">大事记</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=B07&amp;classcodeGrade=2">碑文</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0701&amp;classcodeGrade=3">拓本</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0702&amp;classcodeGrade=3">编印本</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=B08&amp;classcodeGrade=2">实录</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0801&amp;classcodeGrade=3">古代实录</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=B0802&amp;classcodeGrade=3">现代实录</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="item">
+
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=C&amp;classcodeGrade=1">常识</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=C01&amp;classcodeGrade=2">工具书</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=C02&amp;classcodeGrade=2">辞书</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=C03&amp;classcodeGrade=2">科普</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none; top: 50%; margin-top: -47.5px;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=C01&amp;classcodeGrade=2">工具书</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=C0101&amp;classcodeGrade=3">语言词典</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=C0102&amp;classcodeGrade=3">文化词典</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=C0103&amp;classcodeGrade=3">图谱</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=C0104&amp;classcodeGrade=3">食谱</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=C02&amp;classcodeGrade=2">辞书</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=C0201&amp;classcodeGrade=3">百科全书</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=C0202&amp;classcodeGrade=3">知识问答</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=C03&amp;classcodeGrade=2">科普</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=C0301&amp;classcodeGrade=3">常识性科普</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=C0302&amp;classcodeGrade=3">通俗性科普</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=C0303&amp;classcodeGrade=3">专业性科普</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="item">
+
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=D&amp;classcodeGrade=1">思想文化</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=D01&amp;classcodeGrade=2">论著</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=D02&amp;classcodeGrade=2">故事</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=D03&amp;classcodeGrade=2">经文</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=D04&amp;classcodeGrade=2">格言</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none; top: 50%; margin-top: -62.5px;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=D01&amp;classcodeGrade=2">论著</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=D0101&amp;classcodeGrade=3">专著</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=D0102&amp;classcodeGrade=3">论文集</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=D02&amp;classcodeGrade=2">故事</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=D0201&amp;classcodeGrade=3">中国故事</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=D0202&amp;classcodeGrade=3">外国故事</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=D03&amp;classcodeGrade=2">经文</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=D0301&amp;classcodeGrade=3">佛教</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=D0302&amp;classcodeGrade=3">道教</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=D0303&amp;classcodeGrade=3">基督教</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=D0304&amp;classcodeGrade=3">伊斯兰教</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=D04&amp;classcodeGrade=2">格言</a></div>
+                            <ul>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="item">
+
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=E&amp;classcodeGrade=1">民俗文化</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=E01&amp;classcodeGrade=2">民俗文化</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none; top: 50%; margin-top: -39px;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=E01&amp;classcodeGrade=2">民俗文化</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=E0101&amp;classcodeGrade=3">风俗人情</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=E0102&amp;classcodeGrade=3">民俗技艺</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=E0103&amp;classcodeGrade=3">传说</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="item">
+
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=F&amp;classcodeGrade=1">生活休闲</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=F01&amp;classcodeGrade=2">旅行</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=F02&amp;classcodeGrade=2">时尚</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=F03&amp;classcodeGrade=2">家居</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=F04&amp;classcodeGrade=2">体育运动</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=F05&amp;classcodeGrade=2">饮食</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=F06&amp;classcodeGrade=2">两性</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=F07&amp;classcodeGrade=2">孕产亲子</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none; top: 50%; margin-top: -107.5px;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=F01&amp;classcodeGrade=2">旅行</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0101&amp;classcodeGrade=3">旅行攻略</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0102&amp;classcodeGrade=3">旅行随笔</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0103&amp;classcodeGrade=3">名胜导览</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=F02&amp;classcodeGrade=2">时尚</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0201&amp;classcodeGrade=3">美容</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0202&amp;classcodeGrade=3">服饰</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=F03&amp;classcodeGrade=2">家居</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0301&amp;classcodeGrade=3">家装</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0302&amp;classcodeGrade=3">生活指南</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0303&amp;classcodeGrade=3">家居手工</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0304&amp;classcodeGrade=3">家庭用车</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=F04&amp;classcodeGrade=2">体育运动</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0401&amp;classcodeGrade=3">体育文化</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0402&amp;classcodeGrade=3">运动指导</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=F05&amp;classcodeGrade=2">饮食</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0501&amp;classcodeGrade=3">饮食文化</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0502&amp;classcodeGrade=3">烹饪方法</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0503&amp;classcodeGrade=3">饮食指南</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=F06&amp;classcodeGrade=2">两性</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0601&amp;classcodeGrade=3">恋爱</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0602&amp;classcodeGrade=3">婚姻</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0603&amp;classcodeGrade=3">两性关系</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0604&amp;classcodeGrade=3">性知识</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=F07&amp;classcodeGrade=2">孕产亲子</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0701&amp;classcodeGrade=3">孕产</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0702&amp;classcodeGrade=3">胎教</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0703&amp;classcodeGrade=3">亲子关系</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0704&amp;classcodeGrade=3">家庭教育</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=F0705&amp;classcodeGrade=3">育儿</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="item">
+
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=G&amp;classcodeGrade=1">职场攻略</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=G01&amp;classcodeGrade=2">职场求职</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=G02&amp;classcodeGrade=2">职场招聘</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=G03&amp;classcodeGrade=2">职场礼仪</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=G04&amp;classcodeGrade=2">职业规划</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none; top: 50%; margin-top: -62.5px;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=G01&amp;classcodeGrade=2">职场求职</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=G0101&amp;classcodeGrade=3">简历</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=G0102&amp;classcodeGrade=3">面试</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=G02&amp;classcodeGrade=2">职场招聘</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=G0201&amp;classcodeGrade=3">招聘信息</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=G0202&amp;classcodeGrade=3">招聘标准</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=G0203&amp;classcodeGrade=3">招聘结果</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=G03&amp;classcodeGrade=2">职场礼仪</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=G0301&amp;classcodeGrade=3">礼仪规范</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=G04&amp;classcodeGrade=2">职业规划</a></div>
+                            <ul>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="item">
+
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=H&amp;classcodeGrade=1">健康保健</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=H01&amp;classcodeGrade=2">中医养生</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=H02&amp;classcodeGrade=2">健康</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=H03&amp;classcodeGrade=2">疾病预防</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none; top: 50%; margin-top: -47.5px;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=H01&amp;classcodeGrade=2">中医养生</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=H0101&amp;classcodeGrade=3">中医理论</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=H0102&amp;classcodeGrade=3">中医疗法</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=H0103&amp;classcodeGrade=3">中医药膳</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=H02&amp;classcodeGrade=2">健康</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=H0201&amp;classcodeGrade=3">饮食健康</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=H0202&amp;classcodeGrade=3">心理健康</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=H0203&amp;classcodeGrade=3">运动健康</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=H03&amp;classcodeGrade=2">疾病预防</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=H0301&amp;classcodeGrade=3">常见病及用药</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=H0302&amp;classcodeGrade=3">家庭急救</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="item">
+
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=I&amp;classcodeGrade=1">儿童早教</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=I01&amp;classcodeGrade=2">婴儿期0-1岁</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=I02&amp;classcodeGrade=2">幼儿期1-3岁</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=I03&amp;classcodeGrade=2">学龄前3-6岁</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=I04&amp;classcodeGrade=2">学龄期6-12岁</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none; top: 50%; margin-top: -62.5px;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=I01&amp;classcodeGrade=2">婴儿期0-1岁</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0101&amp;classcodeGrade=3">亲子</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0102&amp;classcodeGrade=3">婴儿读物</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0103&amp;classcodeGrade=3">早教开发</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=I02&amp;classcodeGrade=2">幼儿期1-3岁</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0201&amp;classcodeGrade=3">幼儿启蒙</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0202&amp;classcodeGrade=3">幼儿早教</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=I03&amp;classcodeGrade=2">学龄前3-6岁</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0301&amp;classcodeGrade=3">图画书</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0302&amp;classcodeGrade=3">益智启蒙</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=I04&amp;classcodeGrade=2">学龄期6-12岁</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0401&amp;classcodeGrade=3">艺术培养</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0402&amp;classcodeGrade=3">语言培养</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0403&amp;classcodeGrade=3">写作培养</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=I0404&amp;classcodeGrade=3">知识学习</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="item last">
+
+                    <div class="menu-item">
+                        <h2><a target="_blank" href="/newbook/Search?classcode=J&amp;classcodeGrade=1">财富创业</a></h2>
+                        <ul>
+                            <li><a target="_blank" href="/newbook/Search?classcode=J01&amp;classcodeGrade=2">金融</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=J02&amp;classcodeGrade=2">经济</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=J03&amp;classcodeGrade=2">管理</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=J04&amp;classcodeGrade=2">市场营销</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=J05&amp;classcodeGrade=2">电子商务</a></li>
+                            <li><a target="_blank" href="/newbook/Search?classcode=J06&amp;classcodeGrade=2">创业/投资/理财</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu" style="display: none;">
+                        <div class="list-item clearfix">
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=J01&amp;classcodeGrade=2">金融</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0101&amp;classcodeGrade=3">金融理论</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0102&amp;classcodeGrade=3">市场</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0103&amp;classcodeGrade=3">金融产品</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=J02&amp;classcodeGrade=2">经济</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0201&amp;classcodeGrade=3">经济理论</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0202&amp;classcodeGrade=3">行业经济</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0203&amp;classcodeGrade=3">特色经济</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=J03&amp;classcodeGrade=2">管理</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0301&amp;classcodeGrade=3">一般理论</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0302&amp;classcodeGrade=3">管理实务</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=J04&amp;classcodeGrade=2">市场营销</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0401&amp;classcodeGrade=3">市场</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0402&amp;classcodeGrade=3">营销</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0403&amp;classcodeGrade=3">服务</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=J05&amp;classcodeGrade=2">电子商务</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0501&amp;classcodeGrade=3">技术</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0502&amp;classcodeGrade=3">运营</a></li>
+                            </ul>
+                            <div class="left title"><a target="_blank" href="/newbook/Search?classcode=J06&amp;classcodeGrade=2">创业/投资/理财</a></div>
+                            <ul>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0601&amp;classcodeGrade=3">创业</a></li>
+                                <li><a target="_blank" href="/newbook/Search?classcode=J0602&amp;classcodeGrade=3">投资理财</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="left content">
+                <div class="contentNav">
+                    <div class="contentOptions">
+                        <a class="icon1" href="#">新书上架</a>
+                        <span class="boundary"></span>
+                        <a class="icon2" class="current" href="#">热读榜单</a>
+                        <span class="boundary"></span>
+                        <a class="icon3" href="#">精选书单</a>
+                        <span class="boundary"></span>
+                        <a class="icon4" href="#">好书品读</a>
+                    </div>
+                    <div class="contentLinks right clearfix">
+                        <a class="left" href="#"><image src="../images/contentNav2.jpg"></image></a>
+                        <a class="right" href="#"><image src="../images/contentNav3.jpg"></image></a>
+                    </div>
+                </div>
+
+
+                <div class="topbanner clearfix">
+                    <div class="left leftSide">
+                        <div class="carousel" id="carousel1">
+                            <ul class="imageList">
+                                <li class="first"><a href="http://192.168.107.112:8095/newbook/web/Info/11404172" target="_blank"><img src="../images/ca2.jpg" alt="" /></a></li>
+                                <li><a href="http://192.168.107.112:8095/newbook/web/Info/H2011100001" target="_blank"><img src="../images/ca3.jpg" alt="" /></a></li>
+                                <li><a href="http://192.168.107.112:8095/newbook/web/Info/11177887" target="_blank"><img src="../images/ca1.jpg" alt="" /></a></li>
+                            </ul>
+                            <ol class="circleList">
+                                <li class="cur"></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="right rightSide">
+                        <!-- <div class="linkBtn clearfix">
+                            <a href="">充值中心</a>
+                            <a href="">我的数字书房</a>
+                        </div> -->
+                        <div class="courier">
+                            <h4>新书速递</h4>
+                            <div class="carousel carousel2" id="carousel2">
+                                <ul class="imageList">
+                                    <li class="first">
+                                        <div class="item clearfix">
+                                            <div class="left pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11757204"><img src="../imagesTemp/avatar.jpg" alt=""></a></div>
+                                            <div class="left name">
+                                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11757204">浮生六记（汪涵推荐，全译本，畅销150万册） </a>
+                                            </div>
+                                        </div>
+                                        <div class="item clearfix">
+                                            <div class="left pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11452840"><img src="../imagesTemp/book.jpg"  alt=""></a></div>
+                                            <div class="left name">
+                                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11452840">解忧杂货店 </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item clearfix">
+                                            <div class="left pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11687858"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                            <div class="left name">
+                                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11687858">摆渡人</a>
+                                            </div>
+                                        </div>
+                                        <div class="item clearfix">
+                                            <div class="left pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12087016"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                            <div class="left name">
+                                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12087016">小猪佩奇主题绘本（套装共5册） </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item clearfix">
+                                            <div class="left pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12026957"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                            <div class="left name">
+                                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12026957">人民的名义 </a>
+                                            </div>
+                                        </div>
+                                        <div class="item clearfix">
+                                            <div class="left pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12072066"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                            <div class="left name">
+                                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12072066">腾讯传（1998-2016）</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ol class="circleList">
+                                    <li class="cur"></li>
+                                    <li></li>
+                                    <li></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newbook clearfix">
+                    <div class="left recommend">
+                        <div class="title">书推荐</div>
+                        <div class="content">
+                            <ul class="booklist i-booklist">
+                                <li>
+                                    <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12095404"><img src="../imagesTemp/banner1.jpg" alt=""></a></div>
+                                    <div class="info">
+                                        <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12095404">好好说话：新鲜有趣</a></div>
+                                        <div class="author">作者:马薇薇 等著</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12095404"><img src="../imagesTemp/avatar.jpg" alt=""></a></div>
+                                    <div class="info">
+                                        <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12004057">细节：如何轻松影响他人</a></div>
+                                        <div class="author">作者:[美] 罗伯特·西奥迪尼</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12095404"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                    <div class="info">
+                                        <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12146212">如懿传.2（典藏版）</a></div>
+                                        <div class="author">流潋紫 著</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12095404"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                    <div class="info">
+                                        <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11687858">摆渡人</a></div>
+                                        <div class="author">作者: [英]克莱儿·麦克福尔</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12095404"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                    <div class="info">
+                                        <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/10076998">全球通史 史前史到21</a></div>
+                                        <div class="author">作者:[美] 斯塔夫里阿诺斯</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12095404"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                    <div class="info">
+                                        <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11757834">中国科幻基石丛书·三体</a></div>
+                                        <div class="author">作者:刘慈欣 著</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12095404"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                    <div class="info">
+                                        <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11825528">天才在左疯子在右 完整版</a></div>
+                                        <div class="author">作者:高铭 著</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12095404"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                                    <div class="info">
+                                        <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12161014">好妈妈胜过好老师2</a></div>
+                                        <div class="author">作者:尹建莉 著</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right rank new-rank">
+                        <div class="title">新书人气榜</div>
+
+                        <div class="r-content">
+                            <div class="tabnav clearfix">
+                                <span class="cur">总榜</span>
+                                <span>月榜</span>
+                                <span>季榜</span>
+                                <span class="last">年榜</span>
+                            </div>
+                            <div class="list">
+                                <div class="item first cur"><span class="num red">1</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11759614"><img src="../imagesTemp/avatar.jpg" alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11759614">银河帝国：基地七部曲（新版 套装共7册）</a></span>
+                                </div>
+                                <div class="item"><span class="num red">2</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12274539"><img src="../imagesTemp/yzm.gif" alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12274539">李敖自传</a></span>
+                                </div>
+                                <div class="item"><span class="num red">3</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12321946"><img src="../imagesTemp/book.jpg" alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12321946">全世界最美的情书 情诗</a></span>
+                                </div>
+                                <div class="item"><span class="num">4</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12306860"><img src="../imagesTemp/book.jpg" alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12306860">长安乱（2018新版）</a></span>
+                                </div>
+                                <div class="item"><span class="num">5</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12294708"><img src="../imagesTemp/book.jpg"  alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12294708">梵高的耳朵：一个真实的故事
+                                    </a></span>
+                                </div>
+                                <div class="item"><span class="num">6</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12296634"><img src="../imagesTemp/book.jpg" alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12296634">若有光 唯美人像摄影美学攻略
+                                    </a></span>
+                                </div>
+                                <div class="item"><span class="num">7</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12300012"><img src="../imagesTemp/book.jpg" alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12300012">睡魔3 梦境国度</a></span>
+                                </div>
+                                <div class="item"><span class="num">8</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/10878355"><img src="../imagesTemp/book.jpg" alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/10878355">父与子全集（全彩足本精装珍藏版）</a></span>
+                                </div>
+                                <div class="item"><span class="num">9</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11926004"><img src="../imagesTemp/book.jpg" alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11926004">小家，越住越大
+                                    </a></span>
+                                </div>
+                                <div class="item"><span class="num">10</span>
+                                    <div class="pic">
+                                        <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12306858"><img src="../imagesTemp/book.jpg" alt=""></a>
+                                    </div>
+                                    <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12306858">三重门（2018新版）</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="goodbook clearfix">
+            <div class="left module">
+                <div class="module-hd clearfix">
+                    <div class="title">好书推荐</div>
+                </div>
+                <div class="module-bd">
+                    <ul class="booklist i-booklist">
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11941728"><img src="../imagesTemp/cnkisky/pic1.jpg" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11941728" title="自在独行：贾平凹的独行世界">自在独行：贾平凹的独行</a></div>
+                                <div class="author">作者:贾平凹 著</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12153992"><img src="../imagesTemp/yzm.gif" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12153992">半小时漫画中国史</a></div>
+                                <div class="author">作者:二混子 著</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11763293"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11763293">万历十五年</a></div>
+                                <div class="author">作者:[美] 黄仁宇 著</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11593141"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11593141">王阳明全集</a></div>
+                                <div class="author">[明] 王阳明 著</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11879077"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11879077">华夏万卷·田英章硬笔</a></div>
+                                <div class="author">作者:田英章 著</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12169266"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12169266">人工智能（李开复谈AI）</a></div>
+                                <div class="author">作者:李开复，王咏刚 著</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12056718"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12056718">宝宝辅食添加每周计划</a></div>
+                                <div class="author">作者:童笑梅，胡敏 著</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11828625"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11828625">山海经（画集画册）</a></div>
+                                <div class="author">作者:陈丝雨 绘，孙见坤 注</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/10234206"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/10234206">美国纽约摄影学院摄影教材</a></div>
+                                <div class="author">作者:美国纽约摄影学院 编</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11543299"><img src="../imagesTemp/book.jpg" alt=""></a></div>
+                            <div class="info">
+                                <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11543299">蔡康永的说话之道</a></div>
+                                <div class="author">作者:蔡康永 著</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right rank new-rank">
+                <div class="title">图书畅销榜</div>
+                <div class="r-content">
+                    <div class="tabnav clearfix">
+                        <span class="cur">总榜</span>
+                        <span>月榜</span>
+                        <span>季榜</span>
+                        <span class="last">年榜</span>
+                    </div>
+                    <div class="list">
+                        <div class="item first cur"><span class="num red">1</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12153992"><img src="http://192.168.107.112/jd/1713,3273/2010926.jpg"  alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12153992">半小时漫画中国史
+                            </a></span>
+                        </div>
+                        <div class="item"><span class="num red">2</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11320516"><img src="http://192.168.107.112/jd/1713,12776/604358.jpg" alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11320516">美国《国家地理》125年伟大瞬间</a></span>
+                        </div>
+                        <div class="item"><span class="num red">3</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12234161"><img src="http://192.168.107.112/jd/1713,3280/1021769.jpg" alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12234161">闲话中国人（易中天品读中国系列）</a></span>
+                        </div>
+                        <div class="item"><span class="num">4</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11143130"><img src="http://192.168.107.112/jd/1713,9291/3012295.jpg" alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11143130">我的风格小黑皮书（典藏版）</a></span>
+                        </div>
+                        <div class="item"><span class="num">5</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11360424"><img src="http://192.168.107.112/jd//1713,3267/4009809.jpg" alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11360424">经典读库2：哈佛牛津都在玩的1000个思维游戏</a></span>
+                        </div>
+                        <div class="item"><span class="num">6</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11461130"><img src="http://192.168.107.112/jd/1713,9291/3012294.jpg" alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11461130">轻断食：正在横扫全球的瘦身革命</a></span>
+                        </div>
+                        <div class="item"><span class="num">7</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12040638"><img src="http://192.168.107.112/jd/1713,3267/4009421.jpg" alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12040638">六顶思考帽</a></span>
+                        </div>
+                        <div class="item"><span class="num">8</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11843535"
+                                ><img src="http://192.168.107.112/jd/1713,3260/17918.jpg"width="72" height="100" alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11843535">和你在一起才是全世界
+                            </a></span>
+                        </div>
+                        <div class="item"><span class="num">9</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11988344"><img src="http://192.168.107.112/jd/1713,3267/4009403.jpg" alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11988344">卡耐基经典四部曲（套装共4册）
+                            </a></span>
+                        </div>
+                        <div class="item"><span class="num">10</span>
+                            <div class="pic">
+                                <a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11173659"><img src="http://192.168.107.112/jd/1713,3270/3001533.jpg" alt=""></a>
+                            </div>
+                            <span class="text"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11173659">蒙台梭利早教方案：0-3岁智力及语言系统训练全书</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ad1 clearfix">
+            <a class="left" href="#"><img src="../imagesTemp/ad1.jpg"></a>
+            <a class="right" href="#"><img src="../imagesTemp/ad1.jpg"></a>
+        </div>
+        <div class="module">
+            <div class="module-hd clearfix">
+                <div class="left clearfix">
+                    <div class="left title">文学 · 艺术</div>
+                    <ul class="left tabnav clearfix">
+                        <li class="cur"><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A01&classcodeGrade=2">小说</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A04&classcodeGrade=2">诗词</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A07&classcodeGrade=2">散文</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A10&classcodeGrade=2">书法</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A11&classcodeGrade=2">绘画</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A12&classcodeGrade=2">摄影</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A13&classcodeGrade=2">雕塑雕刻</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A14&classcodeGrade=2">音乐舞蹈</a></li>
+                        <li class="last"><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A08&classcodeGrade=2">杂文</a></li>
+                    </ul>
+                </div>
+                <a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=A&classcodeGrade=1" class="right more">更多+</a>
+            </div>
+            <div class="module-bd">
+                <ul class="booklist i-booklist">
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12287808"><img src="http://192.168.107.112/jd/1713,3258/4160.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12287808">东野圭吾：白金数据</a></div>
+                            <div class="author">作者:[日] 东野圭吾 著，王蕴洁 译</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12155951"><img src="http://192.168.107.112/jd/1713,3258/4303.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12155951">心理罪：画像</a></div>
+                            <div class="author">作者:雷米 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12071585"><img src="http://192.168.107.112/jd/1713,3259/10429.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12071585">文化苦旅（软精装）</a></div>
+                            <div class="author">作者:余秋雨 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12290053"><img src="http://192.168.107.112/jd/1713,3259/10376.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12290053">给所有昨日的诗</a></div>
+                            <div class="author">作者:[波]维斯拉瓦·辛波斯卡</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12023863"><img src="http://192.168.107.112/jd/1713,12775/25951.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12023863">大家山水画技法百图</a></div>
+                            <div class="author">作者:四川美术出版社 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12286281"><img src="http://192.168.107.112/jd/1713,12775/25889.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12286281">美国人物速写教程</a></div>
+                            <div class="author">作者:(美)麦伦,汤凯青</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12141695"><img src="http://192.168.107.112/jd/1713,12775/25779.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12141695">古风漫画入门，这本就够了</a></div>
+                            <div class="author">作者:哒哒猫 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12076501"><img src="http://192.168.107.112/jd/1713,12776/604354.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12076501">遇见最美的你</a></div>
+                            <div class="author">作者:王艺萌 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11094463"><img src="http://192.168.107.112/jd/1713,12776/604523.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11094463">迈向另一个国度</a></div>
+                            <div class="author">作者:森山大道 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11915242"><img src="http://192.168.107.112/jd/1713,13634/5004775.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11915242">学古琴：古琴自学教程</a></div>
+                            <div class="author">作者:杨青 编</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11441584"><img src="http://192.168.107.112/jd/1713,13634/5004418.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11441584">哈农钢琴练指法</a></div>
+                            <div class="author">作者:[法] 哈农 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11264062"><img src="http://192.168.107.112/jd/1713,13627/5000003.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11264062">庞中华硬笔楷书系列</a></div>
+                            <div class="author">作者:庞中华 著</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ad2">
+            <a href="#"><img src="../imagesTemp/ad2.jpg"></a>
+        </div>
+        <div class="module">
+            <div class="module-hd clearfix">
+                <div class="left clearfix">
+                    <div class="left title">财经 · 管理</div>
+                    <ul class="left tabnav clearfix">
+                        <li class="cur"><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=J01&classcodeGrade=2">金融</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=J02&classcodeGrade=2">经济</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=J03&classcodeGrade=2">管理</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=J04&classcodeGrade=2">市场营销</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=J05&classcodeGrade=2">电子商务</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=J06&classcodeGrade=2">创业投资理财</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=G01&classcodeGrade=2">求职</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=G02&classcodeGrade=2">招聘</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=G03&classcodeGrade=2">职场礼仪</a></li>
+                        <li class="last"><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=G04&classcodeGrade=2">职业规划</a></li>
+                    </ul>
+                </div>
+                <a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=J&classcodeGrade=1" class="right more">更多+</a>
+            </div>
+            <div class="module-bd">
+                <ul class="booklist i-booklist">
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11969879"><img src="http://192.168.107.112/jd/1713,3266/4013834.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11969879">影响力（经典版）</a></div>
+                            <div class="author">作者:[美] 罗伯特·B·西奥迪尼 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12179788"><img src="http://192.168.107.112/jd/1713,3267/4009416.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12179788">化人际关系危机为合作共赢</a></div>
+                            <div class="author">作者:[美] 科里·帕特森（Kerry Patterson）</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11683280"><img src="http://192.168.107.112/jd/1713,3267/4009432.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11683280">断舍离+断舍离
+                            </a></div>
+                            <div class="author">作者:[日] 山下英子 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11932854"><img src="http://192.168.107.112/jd/1713,3267/4009517.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11932854">拆掉思维里的墙
+                            </a></div>
+                            <div class="author">作者:古典 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11772278"><img src="http://192.168.107.112/jd/1713,3267/4009538.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11772278">一万小时天才理论</a></div>
+                            <div class="author">作者:[美] 丹尼尔·科伊尔</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12142824"><img src="http://192.168.107.112/jd/1713,3267/4009977.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12142824">提升你的职场核心竞争力
+                            </a></div>
+                            <div class="author">作者:陈国钦，孙易新 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12311779"><img src="http://192.168.107.112/jd/1713,3265/4023470.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12311779">巴菲特致股东的信
+                            </a></div>
+                            <div class="author">[美] 沃伦 E. 巴菲特 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11338691"><img src="http://192.168.107.112/jd/1713,3267/4009424.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11338691">把时间当作朋友</a></div>
+                            <div class="author">作者:李笑来 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11735305"><img src="http://192.168.107.112/jd/1713,3266/4014143.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11735305">精益招聘：打造最强悍团队
+                            </a></div>
+                            <div class="author">作者:张儆 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11983555"><img src="http://192.168.107.112/jd/1713,3266/4013839.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11983555">22条商规
+                            </a></div>
+                            <div class="author">作者:[美] 艾·里斯 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12090575"><img src="http://192.168.107.112/jd/1713,3266/4013843.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12090575">人人都是产品经理 </a></div>
+                            <div class="author">作者:苏杰 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12167132"><img src="http://192.168.107.112/jd/1713,3264/4018696.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12167132">数字经济：创新增长新动能</a></div>
+                            <div class="author">作者:马化腾，孟昭莉 等 著</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ad3 clearfix">
+            <a href="#"><img src="../imagesTemp/ad3.jpg"></a>
+            <a href="#"><img src="../imagesTemp/ad3.jpg"></a>
+            <a class="last-child" href="#"><img src="../imagesTemp/ad3.jpg"></a>
+        </div>
+        <div class="module">
+            <div class="module-hd clearfix">
+                <div class="left clearfix">
+                    <div class="left title">生活 · 健康</div>
+                    <ul class="left tabnav clearfix">
+                        <li class="cur"><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=F01&classcodeGrade=2">旅行</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=F02&classcodeGrade=2">时尚</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=F03&classcodeGrade=2">家居</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=F04&classcodeGrade=2">体育运动</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=F05&classcodeGrade=2">饮食</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=F06&classcodeGrade=2">两性</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=F07&classcodeGrade=2">孕产亲子</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=H01&classcodeGrade=2">养生</a></li>
+                        <li><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=H02&classcodeGrade=2">健康</a></li>
+                        <li class="last"><a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=H03&classcodeGrade=2">疾病预防</a></li>
+                    </ul>
+                </div>
+                <a target="_blank" href="http://192.168.107.112:8095/newbook/Search?classcode=F&classcodeGrade=1" class="right more">更多+</a>
+            </div>
+            <div class="module-bd">
+                <ul class="booklist i-booklist">
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12259658"><img src="http://192.168.107.112/jd/1713,13613/3000029.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12259658">怀孕40周枕边书</a></div>
+                            <div class="author">作者:艾贝母婴研究中心 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12122514"><img src="http://192.168.107.112/jd/1713,3270/3001381.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12122514">小儿推拿专家教</a></div>
+                            <div class="author">作者:缘缘 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12005414"><img src="http://192.168.107.112/jd/1713,3270/3001385.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12005414">接纳孩子，接纳不完美自己
+                            </a></div>
+                            <div class="author">作者:侯瑞鹤 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11928218"><img src="http://192.168.107.112/jd/1713,3269/2003522.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11928218">一平米健身+硬派健身</a></div>
+                            <div class="author">作者:斌卡 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12248276"><img src="http://192.168.107.112/jd/1713,3269/2003918.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12248276">女性健身全书</a></div>
+                            <div class="author">作者:[美] 亚当·坎贝尔 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11269610"><img src="http://192.168.107.112/jd/1713,3269/2003519.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11269610">大病预防先除湿热毒</a></div>
+                            <div class="author">作者:孔繁祥 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11838451"><img src="http://192.168.107.112/jd/1713,3269/2003493.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11838451">只有医生知道</a></div>
+                            <div class="author">作者:张羽 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11321453"><img src="http://192.168.107.112/jd/1713,3269/2003505.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11321453">囚徒健身</a></div>
+                            <div class="author">作者:保罗·威德 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11225262"><img src="http://192.168.107.112/jd/1713,3269/2003491.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11225262">崔玉涛：宝贝健康公开课</a></div>
+                            <div class="author">作者:崔玉涛 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11788082"><img src="http://192.168.107.112/jd/1713,3263/4000207.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11788082">海底小纵队探险记:第一辑</a></div>
+                            <div class="author">作者:海豚传媒 编</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12305067"><img src="http://192.168.107.112/jd/1713,3263/4000374.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/12305067">跟爸爸一起去旅行</a></div>
+                            <div class="author">作者:【英】尼克.柯雷恩 著</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11670038"><img src="http://192.168.107.112/jd/1713,9309/2000004.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="name"><a target="_blank" href="http://192.168.107.112:8095/newbook/web/info/11670038">亲密关系</a></div>
+                            <div class="author">作者:[美] 罗兰·米勒著</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="module publisher">
+            <div class="module-hd clearfix">
+                <div class="left clearfix">
+                    <div class="left title">出版社专区</div>
+                </div>
+                <a target="_blank" href="http://mall.cnki.net/Xinke/Publish/index" class="right more">更多+</a>
+            </div>
+            <div class="module-bd">
+                <ul>
+                    <li><a target="_blank"  class='picitemList' href="http://mall.cnki.net/Xinke/Publish/List/%E4%B8%AD%E4%BF%A1%E5%87%BA%E7%89%88%E9%9B%86%E5%9B%A2"><img src="../images/press1.jpg" alt=""></a></li>
+                    <li><a target="_blank"  class='picitemList' href="http://mall.cnki.net/Xinke/Publish/List/%E5%8C%97%E4%BA%AC%E8%81%94%E5%90%88%E5%87%BA%E7%89%88%E5%85%AC%E5%8F%B8"><img src="../images/press2.jpg" alt=""></a></li>
+                    <li><a target="_blank"  class='picitemList' href="http://mall.cnki.net/Xinke/Publish/List/%E4%BA%BA%E6%B0%91%E9%82%AE%E7%94%B5%E5%87%BA%E7%89%88%E7%A4%BE"><img src="../images/press3.jpg" alt=""></a></li>
+                    <li><a target="_blank"  class='picitemList' href="http://mall.cnki.net/Xinke/Publish/List/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE"><img src="../images/press4.jpg" alt=""></a></li>
+                    <li><a target="_blank"  class='picitemList'  href="http://mall.cnki.net/Xinke/Publish/List/%E7%94%B5%E5%AD%90%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE"><img src="../images/press5.jpg" alt=""></a></li>
+                    <li><a target="_blank"  class='picitemList' href="http://mall.cnki.net/Xinke/Publish/List/%E4%BA%BA%E6%B0%91%E6%96%87%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE"><img src="../images/press6.jpg" alt=""></a></li>
+                    <li><a target="_blank"  class='picitemList' href="http://mall.cnki.net/Xinke/Publish/List/%E5%8C%96%E5%AD%A6%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE"><img src="../images/press7.jpg" alt=""></a></li>
+                    <li><a target="_blank"  class='picitemList' href="http://mall.cnki.net/Xinke/Publish/List/%E9%95%BF%E6%B1%9F%E6%96%87%E8%89%BA%E5%87%BA%E7%89%88%E7%A4%BE"><img src="../images/press8.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="w1200Auto">
+            <div class="links">
+                <a href="#" target="_blank" title="">中国知网</a>
+                |
+                <a href="#" target="_blank" title="">充值中心</a>
+                |
+                <a href="#" target="_blank" title="">购买知网卡</a>
+                |
+                <a href="#" target="_blank" title="">安装阅读器</a>
+                |
+                <a href="#" target="_blank" title="">在线客服</a>
+                |
+                <a href="#" target="_blank" title="">帮助中心</a>
+            </div>
+            <div class="info">
+                <div class="left s1">
+                    <p>出版：《中国学术期刊（光盘版）》电子杂志社有限公司</p>
+                    <p>地址：北京清华大学84-48信箱  大众知识服务</p>
+                    <p>京ICP证040431号  网络出版服务许可证（总）网出证（京）字第271号</p>
+                    <p>经营性网站备案信息</p>
+                </div>
+                <div class="left s2">   
+                    <p>服务咨询：400-810-9888 400-819-9993</p>
+                    <p>订购咨询：400-819-9993</p>
+                    <p>传真：010-62780361</p>
+                    <p>京公网安备 11010802020460号</p>
+                </div>
+                <div class="right s3">
+                    <img src="../images/copyright1.png" alt="">
+                    <img src="../images/copyright2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 轮播图
+        carousel("#carousel1",2400,400,true);
+        carousel("#carousel2",2400,400,false);
+
+        $('.menu-item').mouseenter(function () {
+            $('.menu-item').removeClass('cur');
+            $(this).addClass('cur');
+            $(this).siblings('.submenu').show();
+        });
+        $('.menu .item').mouseleave(function () {
+            $(this).find('.menu-item').removeClass('cur').siblings('.submenu').hide();
+        });
+        $('.new-rank .list .item').hover(function () {
+            $(this).addClass('cur').siblings().removeClass('cur');
+            $(this).parent('.list').find('.pic').hide();
+            $(this).find('.pic').show();
+        });
+
+        $('.new-rank .r-content .tabnav span').hover(function () {
+            $(this).addClass('cur').siblings().removeClass('cur')
+        });
+
+        var flag=true;
+        $('.module .module-hd .tabnav li').hover(function () {            
+            if(flag){
+                $(this).addClass('cur').siblings().removeClass('cur');
+                $(this).append('<span class="line"></span>');
+                flag=false;
+            }else{
+                $('.module .module-hd .tabnav li').removeClass('cur');
+                $('.module .tabnav li .line').remove();
+                flag=true;
+            }
+            
+        });
+
+        // 下拉
+        $('.dropdown p').mouseenter(function () {
+            $(this).siblings('ul').slideDown(200);
+        });
+        $('.dropdown').mouseleave(function () {
+            $(this).find('ul').slideUp(200);
+        });
+    </script>
+</body>
+</html>

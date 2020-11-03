@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>知网星空</title>
+<link href="../../css/global.css" rel="stylesheet" type="text/css">
+<link href="../../css/cnkisky/cnkisky.css" rel="stylesheet" type="text/css">
+<script src="../../js/jquery-1.8.2.min.js"></script>
+</head>
+
+<body>
+	<!--header-->
+    <div class="header">
+    		<div class="container clearfix">
+    			<div class="logo bg_none">
+    				<a href="" class="logo1"><img src="../../images/cnkisky/logo.jpg" width="162" height="49" alt=""></a>
+    			</div>
+    			<div class="btn-group btn-group1">
+    				<a href="" class="btn btn1">打印</a>
+    				<a href="" class="btn btn2">编辑</a>
+    			</div>
+    			<div class="btn-group">
+    				<a href="" class="btn btn3">封面</a>
+    				<a href="" class="btn btn4">上一页</a>
+    				<div href="" class="btn btn5"><span class="btn-input"><input type="text" value="12"><span>/9999</span></span><a href="">跳转</a></div>
+    				<a href="" class="btn btn6">下一页</a>
+    				<a href="" class="btn btn7">封底</a>
+    			</div>
+    			<div class="btn-group btn-group3">
+    				<a href="" class="btn">单页显示</a>
+    				<a href="" class="btn">双页显示</a>
+    				<a href="" class="btn btn10">全屏显示</a>
+    			</div>
+    			<div class="header-r right">
+    				<a href="">品得书院</a><span>|</span><a href="">安装阅读器</a>
+    			</div>
+    		</div>
+    </div>
+    <!--cont-->
+    <div  style="background-color:#000000">
+   	 <div class="container main">
+    	<h1 class="title">《呼兰河传—萧红长篇小说代表》</h1>
+        <div class="content clearfix">
+        <img src="../../imagesTemp/cnkisky/book.jpg" width="967" height="636">
+        <div class="side_btns">
+    	 <a href="javascript:void(0)" class="btn2">订购</a>
+      </div>
+        </div>
+        
+    </div>
+    </div>
+    <!--bottom-->
+    <div class="bottom">
+    	<span class="icon"><img src="../../images/cnkisky/logo1.png" width="234" height="100"></span>
+        <div class="wrap clearfix">
+        	<a href="javascript:;" class="a1">书友品评</a>
+            <a href="javascript:;" class="a2">专家导读</a>
+            <a href="javascript:;" class="a3">品得百科</a>
+            <a href="javascript:;" class="a4">延展阅读</a>
+            <a href="javascript:;" class="a5">书刊推荐</a>
+        </div>
+    </div>
+    <!--右侧按钮-->
+        <div class="tools">
+    		<ul>
+    			<li><a href=""  class="btn btn2" title="我的数字书房"></a></li>
+    			<li class="shareBtn">
+    				<a href="javascript:void(0)" class="btn btn3" title="分享"></a>
+    				<div class="slideBox clearfix">
+    					<i></i>
+    					<a href="javascript:void(0)" class="slide_icon"></a>
+    					<div class="share">
+    						<a href=""><img src="../../images/cnkisky/share-icon1.png" alt="" width="32" height="32"></a>
+    						<a href=""><img src="../../images/cnkisky/share-icon2.png" alt=""  width="32" height="32"></a>
+    						<a href=""><img src="../../images/cnkisky/share-icon3.png" alt=""  width="32" height="32"></a>
+    						<a href=""><img src="../../images/cnkisky/share-icon4.png" alt=""  width="32" height="32"></a>
+    					</div>
+    				</div>
+    			</li>
+    			<li><a href="" class="btn btn4" title="帮助"></a></li>
+    		</ul>
+    	</div>
+    <!--右侧按钮结束-->
+    <script>
+	var i=0;
+        $(".tools .shareBtn .btn3").click(function(e) {
+            if(i==0){
+                $(this).siblings(".slideBox").stop().animate({"left":"-182px"},400).css({"opacity":"1"});  
+                i=1;
+            }else if(i==1){
+                $(this).siblings(".slideBox").stop().animate({"left":"40px",opacity:0},400);
+                i=0;
+            }
+             e.stopPropagation();
+        });
+		$(".slide_icon").click(function() {
+            $(this).parent(".slideBox").stop().animate({"left":"40px",opacity:0},400);
+            i=0;
+        });
+        $(".tools .shareBtn .btn3,.tools .shareBtn .slideBox").click(function(e) {
+            e.stopPropagation();
+        });
+        $(document).click(function() {
+            $(".slideBox").stop().animate({"left":"40px",opacity:0},400);
+            i=0;
+        });
+
+    </script>
+</body>
+</html>

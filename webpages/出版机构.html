@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>图书出版发行平台</title>
+    <link href="../css/global.css" rel="stylesheet" type="text/css">
+    <link href="../css/platform.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/placeholder.js"></script>
+    <script src="../js/carousel.js"></script>
+    <script src="../js/jquery.promptToggle.js"></script>
+    <script src="../js/divSelect.js"></script>
+</head>
+<body>
+	<!--header-->
+	<div class="syheader"> 
+    	<div class="width1238pxAuto">
+        	<a href="#" target="_blank" class="logo left"><img src="../images/logo1-2.png" width="163" height="71"></a>
+            <div class="searchWrap left">
+            	<input type="text" value="请输入关键词" class="colorGrey left">
+                <div class="select left">
+                	<p>全部</p>
+                    <ul>
+                    	<li>全部</li>
+                        <li>书名</li>
+                        <li>作者</li>
+                        <li>出版社</li>
+                    </ul>
+                 </div>
+                 <a href="javascript:;" class="btn left"></a>
+            </div>
+           <div class="nav left"><a href="#">summer101...</a><span>|</span><a href="#">退出</a><span>|</span><a href="#">购物车</a><span>|</span><a href="#">数字书房</a><span>|</span><a href="#">阅读器</a></div>
+           
+        </div>
+    </div>
+<div class="main w1200Auto clearfix">
+    <div class="special-p">
+        <div class="title">
+            <div class="nav"><a href="#">首页</a> &gt; 出版机构专区</div>
+        </div>
+        <div class="press">
+            <div class="name">清华出版社</div>
+        </div>
+        <div class="classify clearfix">
+            <div class="all left">全部图书</div>
+            <div class="sort right clearfix">
+                <div class="item left" data-sort="0">
+                    <table align="center">
+                        <tr>
+                            <td>销量</td>
+                            <td><span class="down"></span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="item left" data-sort="0">
+                    <table align="center">
+                        <tr>
+                            <td>出版时间</td>
+                            <td><span class="down"></span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="item left" data-sort="0">
+                    <table align="center">
+                        <tr>
+                            <td>上架时间</td>
+                            <td><span class="down"></span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <script>
+                $(".sort .item").click(function(){
+                    $(".sort .item").removeClass("item-selected");
+                    $(this).addClass("item-selected");
+                    if(parseInt($(this).attr("data-sort")) == 0){
+                        $(this).attr("data-sort",1).find('span').removeClass("down").addClass("up");
+                    }else
+                    {
+                        $(this).attr("data-sort",0).find('span').removeClass("up").addClass("down");
+                    }
+                });
+            </script>
+        </div>
+        <div class="books clearfix">
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+            <div class="book left">
+                <a href="#" class="img"><img src="../images/special4.jpg"></a>
+                <div class="info">
+                    <a href="#" class="name">顾中一：我们就该这样吃</a>
+                    <a href="#" class="author">顾中一 著</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            var b = $(".books .book");
+            b.hover(function(){
+                $(this).addClass("book-hover");
+            }, function(){
+                $(this).removeClass("book-hover");
+            });
+            for(var i=0; i< b.length; i++){
+                if((i+1)%4 == 0){
+                    b.eq(i).addClass("no-margin-right");
+                }
+            }
+        </script>
+    </div>
+    <div class="page">
+        <a href="" class="disabled">上一页</a>
+        <span class="cur">1</span>
+        <a href="">2</a>
+        <a href="">3</a>
+        <span>...</span>
+        <a href="">56</a>
+        <a href="">下一页</a>
+        <span>共56页</span>
+        <!--<span>共56页 到第&nbsp;<input type="text">&nbsp;页</span>-->
+        <!--<a href="javscript:;" class="confirmBtn">确定</a>-->
+    </div>
+</div>
+<div class="footer">
+    <div class="w1200Auto">
+        <div class="links">
+            <a href="#" target="_blank" title="">中国知网</a>
+            |
+            <a href="#" target="_blank" title="">充值中心</a>
+            |
+            <a href="#" target="_blank" title="">购买知网卡</a>
+            |
+            <a href="#" target="_blank" title="">安装阅读器</a>
+            |
+            <a href="#" target="_blank" title="">在线客服</a>
+            |
+            <a href="#" target="_blank" title="">帮助中心</a>
+        </div>
+        <div class="info">
+            <div class="left s1">
+                <p>出版：《中国学术期刊（光盘版）》电子杂志社有限公司</p>
+                <p>地址：北京清华大学84-48信箱  大众知识服务</p>
+                <p>京ICP证040431号  网络出版服务许可证（总）网出证（京）字第271号</p>
+                <p>经营性网站备案信息</p>
+            </div>
+            <div class="left s2">
+                <p>服务咨询：400-810-9888 400-819-9993</p>
+                <p>订购咨询：400-819-9993</p>
+                <p>传真：010-62780361</p>
+                <p>京公网安备 11010802020460号</p>
+            </div>
+            <div class="right s3">
+                <img src="../images/copyright1.png" alt="">
+                <img src="../images/copyright2.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // 轮播图
+    carousel("#carousel1",2400,400);
+    carousel("#carousel2",2400,400);
+
+    $('.menu .item').hover(function () {
+        $(this).toggleClass('cur').siblings().removeClass('cur')
+        $(this).find('.submenu').toggle();
+    });
+    var menuListHeight=$('.submenu').height();
+    $('.submenu').css('margin-top',-menuListHeight/2+'px');
+
+    $('.rank .list .item').hover(function () {
+        $(this).addClass('cur').siblings().removeClass('cur');
+        $('.rank .list .pic').remove();
+        $(this).children('.num').after('<div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg"width="72" height="100" alt=""></a></div>');
+
+    });
+
+    $('.module .module-hd .tabnav li').click(function () {
+        $(this).addClass('cur').siblings().removeClass('cur');
+        $('.module .tabnav li .line').remove();
+        $(this).append('<span class="line"></span>');
+
+    });
+	//头部下拉选择
+	$.divselect($(".select p"),$(".select ul"),$(".select ul li"));
+		$(".s2 li").click(function(){
+			$(this).addClass("click").siblings().removeClass("click")
+			})
+	PromptToggle($(".searchWrap input"),"请输入关键词","colorGrey left","left")
+</script>
+</body>
+</html>

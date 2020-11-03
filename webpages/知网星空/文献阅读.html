@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>知网星空</title>
+<link href="../../css/global.css" rel="stylesheet" type="text/css">
+<link href="../../css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+<link href="../../css/cnkisky/cnkisky.css" rel="stylesheet" type="text/css">
+<script src="../../js/jquery-1.8.2.min.js"></script>
+<script src="../../js/cnkisky/wordLimit.js"></script>
+<script src="../../js/cnkisky/jquery.mCustomScrollbar.min.js"></script>
+
+</head>
+
+<body bgcolor="#D4CEC2">
+    <!--top-->
+    <div class="top">
+    	<span class="icon"><img src="../../images/cnkisky/logo2.png" width="250" height="117"></span>
+         <a href="javascript:;" class="return">返回继续阅读</a>
+    </div>
+    <div class="dcont">
+    	<div class="dArea">
+        	<div class="tab">
+            	<a href="javascript:;" class="a1">书友品评</a>
+                <a href="javascript:;" class="a2  cur">专家导读</a>
+                <a href="javascript:;" class="a3">品得百科</a>
+                <a href="javascript:;" class="a4">延展阅读</a>
+                <a href="javascript:;" class="a5">书刊推荐</a>
+            </div>
+            <div class="tabc">
+            	<div class="tc tc2">
+                   <a href="#" class="fh">&lt;&lt; 返回”专家导读”列表</a>
+                   <div class="box" style="margin:0 70px; height:680px; background-color:#cccccc;"></div>
+                 </div> 
+                </div>
+        </div>
+    </div>
+    <script>
+	$(".checkbox").click(function(){
+		$(this).toggleClass("cur")
+		})
+	//点评
+  $(".select p").click(function(e){
+	  $(this).siblings("ul").slideDown(200)
+	  e.stopPropagation();
+	  })
+ $(".select ul .li1").click(function(e){
+	$(".select .writeBox").show() 
+	$(this).parent().slideUp(200)
+	e.stopPropagation();
+	 }) 
+  $(document).click(function(){
+		$(".select ul").slideUp(200)
+		//$(".select .writeBox").hide()
+	});
+	//滚动条
+	$(".listBlock").mCustomScrollbar({	
+			});
+//搜索
+$(".other .more .a1").click(function(){
+	$(this).hide().siblings().show()
+	})
+$(".other .more .cancel").click(function(){
+	$(this).hide().siblings().hide()
+	$(".more .a1").show()
+	})
+	var i=0;
+        $(".tools .shareBtn .btn3").click(function(e) {
+            if(i==0){
+                $(this).siblings(".slideBox").stop().animate({"left":"-182px"},400).css({"opacity":"1"});  
+                i=1;
+            }else if(i==1){
+                $(this).siblings(".slideBox").stop().animate({"left":"40px",opacity:0},400);
+                i=0;
+            }
+             e.stopPropagation();
+        });
+		$(".slide_icon").click(function() {
+            $(this).parent(".slideBox").stop().animate({"left":"40px",opacity:0},400);
+            i=0;
+        });
+        $(".tools .shareBtn .btn3,.tools .shareBtn .slideBox").click(function(e) {
+            e.stopPropagation();
+        });
+        $(document).click(function() {
+            $(".slideBox").stop().animate({"left":"40px",opacity:0},400);
+            i=0;
+        });
+    </script>
+</body>
+</html>

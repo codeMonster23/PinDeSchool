@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+/*头部*/
+.loginheader{width:924px; margin:0 auto; padding-top:30px; overflow:hidden; margin-bottom:10px;}
+.loginheader .logo{width:221px; height:62px;}
+.loginheader .title{ width:307px; height:49px; background:url(../images/title.jpg) no-repeat; margin-top: 15px;}
+.loginmain{ height:502px; background:#83DBFF; min-width:924px;_width:expression(this.parentNode.clientWidth > 924? 'auto' : '924px'); background:url(../images/login_bg01.jpg) center;}
+.loginmain .cont{padding-top:35px; width:924px; margin:0 auto; height:467px; position:relative;}
+.loginmain .cont .login{width:324px; padding:22px 30px; background:#fff; overflow:hidden; float: right;}
+.loginmain .cont .login h1{font-size:18px; color:#333333; position:relative; height:24px; margin-bottom:15px; padding-left:6px; font-family:"Microsoft Yahei"; font-weight:normal;}
+.loginmain .cont .login h1 a{font-size:14px; color:#40ACFF;font-weight:normal; position:absolute; right:6px; bottom:4px;}
+.loginmain .cont .login h1 a:hover{text-decoration:underline;}
+.loginmain .cont .login form{padding:0 6px;}
+.loginmain .cont .login .txt_wrap{width:300px; height:26px; border:1px solid #CCC; padding-top:10px; padding-left:10px; position:relative;}/*默认边框*/
+.loginmain .cont .login .active{border:1px solid #E08353;}/*选中时边框*/
+.loginmain .cont .login .error-bd{border:1px solid #FF7474;}/*出错红色边框*/
+.loginmain .cont .login input{ border:none 0; font-family:"宋体";}
+input::-webkit-input-placeholder{color:#999999;}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color:#999999;}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */color:#999999;}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */color:#999999;}
+.loginmain .cont .login .txt_wrap label{ background-image:url(../images/sprite.gif); background-repeat:no-repeat;}
+.loginmain .cont .login .name label{ float:left; width:16px; height:18px; background-position:0px -72px;}
+.loginmain .cont .login .name .label-hover{background-position:0px -54px;}
+.loginmain .cont .login .txt_wrap span{ position:absolute;height:18px; line-height:18px; font-size:14px; color:#E2E2E2; left:36px; top:10px; cursor:text; float:left;} 
+.loginmain .cont .login .txt_wrap input{height:18px; width:250px; padding-left:8px; line-height:18px; font-size:14px;}
+.loginmain .cont .login .error-wrap{width:310px; height:30px; line-height:30px; overflow:hidden;}
+.loginmain .cont .login .info-error{font-size:12px; color:#FF3B3B; display:none; }
+.loginmain .cont .login .info-error a{color:#40ACFF; }
+.loginmain .cont .login .info-error a:hover{text-decoration:underline;}
+.loginmain .cont .login .psw label{ float:left; width:16px; height:18px; background-position:0px -90px;}
+.loginmain .cont .login .psw .label-hover{background: url(../images/psw-hover.gif) no-repeat;}
+.loginmain .cont .login .yzm-wrap{display:none;}
+.loginmain .cont .login .yzm{float:left; width:132px; margin-right:16px;}
+.loginmain .cont .login .yzm input{ width:100px;}
+.loginmain .cont .login .yzm label{ float:left; width:16px; height:18px; background-position:0px -36px;}
+.loginmain .cont .login .yzm .label-hover{ background-position:0px -18px;}
+.loginmain .cont .login .img, .main .cont .login .change{float:left;}
+.loginmain .cont .login .img{width:97px; height:36px; border:1px solid #ccc; margin-right:16px;}
+.loginmain .cont .login .change{width:36px; color:#53BCFF; padding-top:3px;}
+.loginmain .cont .login .change:hover{text-decoration:underline;}
+.loginmain .cont .login .btn {display:block; width:310px; height:38px; color:#fff; background:#AB3D02; font-size:18px; font-family:"Microsoft YaHei"; position: relative; cursor:pointer;}
+.loginmain .cont .login .btn:hover{ background:#c84a02;}
+.loginmain .cont .login .btn span{position:absolute;}
+.loginmain .cont .login .btn .deng{left:116px; top:7px;}
+.loginmain .cont .login .btn .lu{left:159px; top:7px;} 
+.loginmain .cont .login .remark{ padding-top:16px; width:310px; color:#727272; overflow:hidden; padding-bottom:16px;}
+.loginmain .cont .login .remark a{color:#727272;}
+.loginmain .cont .login .remark a:hover{color:#40ACFF;}
+.loginmain .cont .login .remark .re-left label, .loginmain .cont .login .remark .re-left input{vertical-align:middle;}
+.loginmain .cont .login .remark .re-right{padding-top:1px;*padding-top:4px;}
+.loginmain .cont .login .remark .re-right .blue{color:#40ACFF; margin-left:10px;}
+.loginmain .cont .login .remark .re-right .blue:hover{text-decoration:underline;}
+.loginmain .cont .login .other{width:310px; padding:0 7px; border-top:1px solid #DEDEDE; height:56px; padding-top:14px;}
+.loginmain .cont .login .other p{width:310px; color:#737373; margin-bottom:12px;}
+.loginmain .cont .login .other .ways{ width:310px; height:27px; line-height:27px;}
+.loginmain .cont .login .other .ways a, .main .cont .login .other .ways i, .main .cont .login .other .ways .more-cont{float:left; color:#787878;}
+.loginmain .cont .login .other .ways .qq, .loginmain .cont .login .other .ways .sina,  .loginmain .cont .login .other .ways .ne, .loginmain .cont .login .other .ways .wechat{ width:28px; height:27px; margin-right:8px;}
+.loginmain .cont .login .other .ways .qq{background:url(../images/qq.gif) no-repeat;}
+.loginmain .cont .login .other .ways .sina{ background:url(../images/sina.gif) no-repeat;}
+.loginmain .cont .login .other .ways .ne{background:url(../images/ne.gif) no-repeat;}
+.loginmain .cont .login .other .ways .wechat{background:url(../images/wechat.gif) no-repeat;}
+.loginmain .cont .login .other .ways .qq:hover{background:url(../images/qq-hover.gif) no-repeat;}
+.loginmain .cont .login .other .ways .sina:hover{ background:url(../images/sina-hover.gif) no-repeat;}
+.loginmain .cont .login .other .ways .ne:hover{ background:url(../images/ne-hover.gif) no-repeat;}
+.loginmain .cont .login .other .ways .wechat:hover{background:url(../images/wechat-hover.gif) no-repeat;}
+/*页尾通用*/
+.footerr{width:740px; height:70px; padding-top:20px; margin:0 auto; color:#575757;}
+.footerr .con-left{width:430px; float:left;}
+.footerr .con-right{width:310px; float:right;}
+.footerr  p{height:22px; text-align:right;}
+.footerr a{color:#575757;}
+.footerr a img{ display:inline-block;}
+.footerr a:hover{color:#40ACFF;}
+/*注册*/
+.registerheader{width:872px; margin:0 auto; padding-top:15px; overflow:hidden; margin-bottom:20px;}
+.registerheader .logo{width:221px; height:62px;}
+.registerheader .title{ width:307px; height:49px;  background:url(../images/title.jpg) no-repeat;}
+.registermain{ height:600px; background:#83DBFF; min-width:872px;_width:expression(this.parentNode.clientWidth > 872? 'auto' : '872px'); background:url(../images/login_bg0.jpg) center; }
+.registermain .cont{padding-top:30px; width:872px; margin:0 auto;position:relative;}
+.registermain .cont .register{width:324px; height:511px; padding:22px 33px; background:#fff; overflow:hidden; float: left; padding-bottom:0;}
+.registermain .cont .register h1{font-size:18px; color:#1E4965; position:relative; height:24px; margin-bottom:15px; padding-left:6px;font-family:"Microsoft Yahei"; font-weight:normal; }
+.registermain .cont .register h1 span{ font-size:12px;color:#787878;font-weight:normal; position:absolute; right:6px; bottom:4px; font-family:"宋体";}
+.registermain .cont .register h1 a{color:#40ACFF;}
+.registermain .cont .register h1 a:hover{text-decoration:underline;}
+.registermain .cont .register .tab{ height:29px; border-bottom:1px solid #F16914; margin-bottom:16px;}
+.registermain .cont .register .tab a{ float:left; width:74px; text-align:center; height:28px; line-height:28px; color:#7F7F7F; background-color:#F2F2F2; margin-right:3px; border:1px solid #CACACA; border-bottom:none; border-top-left-radius:3px; border-top-right-radius:3px;}
+.registermain .cont .register .tab a.cur{ border-color:#F16914; background-color:#FFEBDF; color:#F16914; margin-bottom:-1px; height:29px;}
+.registermain .cont .register .txt_wrap{width:308px; height:36px; border:1px solid #CCC; padding-left:8px; position:relative;}/*默认边框*/
+.registermain .cont .register .active{border:1px solid #54BCFD;}/*选中时边框*/
+.registermain .cont .register .error-bd{border:1px solid #FF7474;}/*出错红色边框*/
+.registermain .cont .register .txt_wrap input{ border:none 0; padding:8px 0; line-height:20px; font-family:"宋体";width:250px; padding-left:8px; font-size:14px;}
+.registermain .cont .register .txt_wrap label{float:left; width:21px; height:36px; }
+.registermain .cont .register .yzm{ width:164px; margin-right:6px;}
+.registermain .cont .register .message{ width:164px; margin-right:6px;}
+.registermain .cont .register .yzm input{ width:135px;}
+.registermain .cont .register .message input{ width:135px;}
+.registermain .cont .register .tel label{ background:url(../images/ricon1.png) no-repeat center;}
+.registermain .cont .register .psw label{ background:url(../images/ricon2.png) no-repeat center;}
+.registermain .cont .register .yzm label{ background:url(../images/ricon3.png) no-repeat center;}
+.registermain .cont .register .message label{ background:url(../images/ricon4.png) no-repeat center;}
+.registermain .cont .register .mail label{ background:url(../images/ricon5.png) no-repeat center;}
+.registermain .cont .register .email label{ background:url(../images/ricon6.png) no-repeat center;}
+.registermain .cont .register .pic{ margin-right:23px;}
+.registermain .cont .register .change{ line-height:38px; color:#A5A5A5; text-decoration:underline;}
+.registermain .cont .register .get{ font-size:14px; width:138px; text-align:center; line-height:36px; height:36px; border:1px solid #CACACA; background-color:#F1F1F1; color:#7F7F7F;}
+.registermain .cont .register .txt_wrap .judge-r, .registermain .cont .register .txt_wrap .judge-w{position:absolute; right:10px; top:10px; width:16px; height:16px; }
+.registermain .cont .register .txt_wrap .judge-r{ background:url(../images/right.gif) no-repeat;}
+.registermain .cont .register .txt_wrap .judge-w{ background:url(../images/wrong.gif) no-repeat;}
+.registermain .cont .register .error-wrap{width:310px; height:30px; line-height:30px; overflow:hidden;}
+.registermain .cont .register .tip{ line-height:30px; height:30px; color:#777777;}
+.registermain .cont .register .error{ line-height:30px; height:30px; color:#FF3B3B;}
+.registermain .cont .register .btn {display:block; width:320px; height:38px; line-height:38px; text-align:center; color:#fff; background:#AB3D02; font-size:18px; font-family:"Microsoft YaHei"; }
+.registermain .cont .register .btn:hover{ background:#c84a02;}
+.registermain .cont .register .remark{ padding-top:8px; width:320px; color:#737373; height:18px;}
+.registermain .cont .register .remark a{color:#40ACFF;}
+.registermain .cont .register .remark a:hover{ text-decoration:underline;}
+.registermain .cont .register .remark .re-left label, .registermain .cont .register .remark .re-left input{vertical-align:middle;}
+.registermain .cont .register .remark .re-left input{margin-right:5px; _width:13px; _height:13px;}
+.registermain .cont .register  .wrong{display:none; color:#FF3D3D; padding-left:18px; height:14px;}
+.registermain .cont .register .other{width:310px; padding:0 7px; border-top:1px solid #DEDEDE; height:56px; padding-top:10px; margin-top:8px;}
+.registermain .cont .register .other p{width:324px; color:#737373; margin-bottom:12px;}
+.registermain .cont .register .other .ways{ width:324px; height:27px; line-height:27px;}
+.registermain .cont .register .other .ways a{float:left;width:28px; height:27px; margin-right:8px;}
+.registermain .cont .register .other .ways .qq{background:url(../images/qq.gif) no-repeat;}
+.registermain .cont .register .other .ways .sina{ background:url(../images/sina.gif) no-repeat;}
+.registermain .cont .register .other .ways .ne{background:url(../images/ne.gif) no-repeat;}
+.registermain .cont .register .other .ways .wechat{background:url(../images/wechat.gif) no-repeat;}
+.registermain .cont .register .other .ways .qq:hover{background:url(../images/qq-hover.gif) no-repeat;}
+.registermain .cont .register .other .ways .sina:hover{ background:url(../images/sina-hover.gif) no-repeat;}
+.registermain .cont .register .other .ways .ne:hover{ background:url(../images/ne-hover.gif) no-repeat;}
+.registermain .cont .register .other .ways .wechat:hover{background:url(../images/wechat-hover.gif) no-repeat;}
+
+.app { background:url("../images/app1.jpg") no-repeat center center; height:620px;}
+.app .ewm { position: absolute; left:50%; top:0%; margin-left:275px; margin-top:320px; width:193px; height:194px;}
+

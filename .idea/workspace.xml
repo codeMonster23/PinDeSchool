@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="ad6ad189-720e-4489-bdac-0f04fe68ec89" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpages/书单/为什么成就越高.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpages/书单/为什么成就越高.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="为什么成就越高.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpages/书单/为什么成就越高.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-127">
+              <caret line="145" column="40" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#2410#2416#0" expanded="true" />
+                <element signature="e#2416#2422#0" expanded="true" />
+                <element signature="e#2422#2428#0" expanded="true" />
+                <element signature="e#2428#2434#0" expanded="true" />
+                <element signature="e#2548#2554#0" expanded="true" />
+                <element signature="e#2554#2560#0" expanded="true" />
+                <element signature="e#2560#2566#0" expanded="true" />
+                <element signature="e#2566#2572#0" expanded="true" />
+                <element signature="e#2686#2692#0" expanded="true" />
+                <element signature="e#2692#2698#0" expanded="true" />
+                <element signature="e#2698#2704#0" expanded="true" />
+                <element signature="e#2704#2710#0" expanded="true" />
+                <element signature="e#2829#2835#0" expanded="true" />
+                <element signature="e#2835#2841#0" expanded="true" />
+                <element signature="e#2841#2847#0" expanded="true" />
+                <element signature="e#2847#2853#0" expanded="true" />
+                <element signature="e#3009#3015#0" expanded="true" />
+                <element signature="e#3015#3021#0" expanded="true" />
+                <element signature="e#3021#3027#0" expanded="true" />
+                <element signature="e#3027#3033#0" expanded="true" />
+                <element signature="e#3154#3160#0" expanded="true" />
+                <element signature="e#3160#3166#0" expanded="true" />
+                <element signature="e#3166#3172#0" expanded="true" />
+                <element signature="e#3172#3178#0" expanded="true" />
+                <element signature="e#3820#3826#0" expanded="true" />
+                <element signature="e#3826#3832#0" expanded="true" />
+                <element signature="e#3832#3838#0" expanded="true" />
+                <element signature="e#3838#3844#0" expanded="true" />
+                <element signature="e#3867#3873#0" expanded="true" />
+                <element signature="e#3873#3879#0" expanded="true" />
+                <element signature="e#3879#3885#0" expanded="true" />
+                <element signature="e#3885#3891#0" expanded="true" />
+                <element signature="e#3947#3953#0" expanded="true" />
+                <element signature="e#3953#3959#0" expanded="true" />
+                <element signature="e#3959#3965#0" expanded="true" />
+                <element signature="e#3965#3971#0" expanded="true" />
+                <element signature="e#3994#4000#0" expanded="true" />
+                <element signature="e#4000#4006#0" expanded="true" />
+                <element signature="e#4006#4012#0" expanded="true" />
+                <element signature="e#4012#4018#0" expanded="true" />
+                <element signature="e#4098#4104#0" expanded="true" />
+                <element signature="e#4104#4110#0" expanded="true" />
+                <element signature="e#4110#4116#0" expanded="true" />
+                <element signature="e#4116#4122#0" expanded="true" />
+                <element signature="e#4195#4201#0" expanded="true" />
+                <element signature="e#4201#4207#0" expanded="true" />
+                <element signature="e#4207#4213#0" expanded="true" />
+                <element signature="e#4213#4219#0" expanded="true" />
+                <element signature="e#4306#4312#0" expanded="true" />
+                <element signature="e#4312#4318#0" expanded="true" />
+                <element signature="e#4318#4324#0" expanded="true" />
+                <element signature="e#4324#4330#0" expanded="true" />
+                <element signature="e#4415#4421#0" expanded="true" />
+                <element signature="e#4421#4427#0" expanded="true" />
+                <element signature="e#4427#4433#0" expanded="true" />
+                <element signature="e#4433#4439#0" expanded="true" />
+                <element signature="e#4546#4552#0" expanded="true" />
+                <element signature="e#4552#4558#0" expanded="true" />
+                <element signature="e#4558#4564#0" expanded="true" />
+                <element signature="e#4564#4570#0" expanded="true" />
+                <element signature="e#4664#4670#0" expanded="true" />
+                <element signature="e#4670#4676#0" expanded="true" />
+                <element signature="e#4676#4682#0" expanded="true" />
+                <element signature="e#4682#4688#0" expanded="true" />
+                <element signature="e#4756#4762#0" expanded="true" />
+                <element signature="e#4762#4768#0" expanded="true" />
+                <element signature="e#4768#4774#0" expanded="true" />
+                <element signature="e#4774#4780#0" expanded="true" />
+                <element signature="e#5476#5482#0" expanded="true" />
+                <element signature="e#5482#5488#0" expanded="true" />
+                <element signature="e#5488#5494#0" expanded="true" />
+                <element signature="e#5494#5500#0" expanded="true" />
+                <element signature="e#5624#5630#0" expanded="true" />
+                <element signature="e#5630#5636#0" expanded="true" />
+                <element signature="e#5636#5642#0" expanded="true" />
+                <element signature="e#5642#5648#0" expanded="true" />
+                <element signature="e#5794#5800#0" expanded="true" />
+                <element signature="e#5800#5806#0" expanded="true" />
+                <element signature="e#5806#5812#0" expanded="true" />
+                <element signature="e#5812#5818#0" expanded="true" />
+                <element signature="e#6039#6045#0" expanded="true" />
+                <element signature="e#6045#6051#0" expanded="true" />
+                <element signature="e#6051#6057#0" expanded="true" />
+                <element signature="e#6057#6063#0" expanded="true" />
+                <element signature="e#6864#6870#0" expanded="true" />
+                <element signature="e#6870#6876#0" expanded="true" />
+                <element signature="e#6876#6882#0" expanded="true" />
+                <element signature="e#6882#6888#0" expanded="true" />
+                <element signature="e#6942#6948#0" expanded="true" />
+                <element signature="e#6948#6954#0" expanded="true" />
+                <element signature="e#6954#6960#0" expanded="true" />
+                <element signature="e#6960#6966#0" expanded="true" />
+                <element signature="e#7046#7052#0" expanded="true" />
+                <element signature="e#7052#7058#0" expanded="true" />
+                <element signature="e#7058#7064#0" expanded="true" />
+                <element signature="e#7064#7070#0" expanded="true" />
+                <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.main2 .group p span</find>
+      <find>.main2 .book li p</find>
+      <find>left content</find>
+      <find>images</find>
+      <find>新书人气榜</find>
+      <find>总榜</find>
+      <find>.new-rank .r-content</find>
+      <find>goodbook clearfix</find>
+      <find>page</find>
+      <find>.hot-books .content .books .book .img img</find>
+      <find>.book-share</find>
+      <find>.contentOptions a.current</find>
+      <find>.contentNav .contentOptions a.current</find>
+      <find>.hot-books .sort .items a</find>
+      <find>&lt;a href=&quot;#&quot; class=&quot;avatar left&quot;&gt;&lt;img src=&quot;../../images/channel/channel8-2.jpg&quot;&gt;&lt;/a&gt;</find>
+      <find>&lt;a href=&quot;#&quot; class=&quot;author-name&quot;&gt;王瑞兰&lt;/a&gt;</find>
+      <find>精选书单</find>
+      <find>.book-share .p2 .block .title</find>
+      <find>.box .cell</find>
+      <find>.hot-books .content .books .book .author</find>
+      <find>&lt;a href=&quot;#&quot;&gt;</find>
+      <find>.hot-books .content .books</find>
+      <find>.book-share-banner</find>
+      <find>.banner</find>
+      <find>.book-share .p1 .info ul li</find>
+      <find>.contentNav .contentOptions a</find>
+      <find>新书上架</find>
+      <find>banner</find>
+      <find>p1</find>
+      <find>p1 clearfix</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/webpages/详情页.html" />
+        <option value="$PROJECT_DIR$/webpages/活动/活动.html" />
+        <option value="$PROJECT_DIR$/webpages/活动/活动4.html" />
+        <option value="$PROJECT_DIR$/webpages/书单/生活这么苦，你需要一点甜.html" />
+        <option value="$PROJECT_DIR$/webpages/书单/读诗的你.html" />
+        <option value="$PROJECT_DIR$/webpages/书单/内心越富足，生活越明媚.html" />
+        <option value="$PROJECT_DIR$/webpages/频道/客户端.html" />
+        <option value="$PROJECT_DIR$/css/register.css" />
+        <option value="$PROJECT_DIR$/webpages/频道/热度榜单.html" />
+        <option value="$PROJECT_DIR$/webpages/书单/多希望你和我之间.html" />
+        <option value="$PROJECT_DIR$/webpages/频道/好书品读.html" />
+        <option value="$PROJECT_DIR$/webpages/频道/热读榜单.html" />
+        <option value="$PROJECT_DIR$/webpages/频道/精选书单.html" />
+        <option value="$PROJECT_DIR$/css/channel/channel.css" />
+        <option value="$PROJECT_DIR$/webpages/频道/新书上架.html" />
+        <option value="$PROJECT_DIR$/webpages/首页-新.html" />
+        <option value="$PROJECT_DIR$/css/platform.css" />
+        <option value="$PROJECT_DIR$/css/booklist/booklist.css" />
+        <option value="$PROJECT_DIR$/webpages/书单/为什么成就越高.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
+    <option name="width" value="1924" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="品得书院" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="品得书院" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="品得书院" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="booklist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="品得书院" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="品得书院" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="booklist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="品得书院" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="channel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="品得书院" type="462c0819:PsiDirectoryNode" />
+              <item name="webpages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="品得书院" type="462c0819:PsiDirectoryNode" />
+              <item name="webpages" type="462c0819:PsiDirectoryNode" />
+              <item name="书单" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="品得书院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="WebStorm Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\项目静态页\品得书院\images\booklist\images" />
+      <recent name="E:\项目静态页\品得书院\webpages\书单" />
+      <recent name="E:\项目静态页\品得书院\images" />
+      <recent name="E:\项目静态页\品得书院\images\channel" />
+      <recent name="E:\项目静态页\品得书院\webpages\频道" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\项目静态页\品得书院" />
+          <option name="myCopyRoot" value="E:\项目静态页\品得书院" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\项目静态页\品得书院" />
+          <option name="myCopyRoot" value="E:\项目静态页\品得书院" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad6ad189-720e-4489-bdac-0f04fe68ec89" name="Default" comment="" />
+      <created>1540200734186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540200734186</updated>
+      <workItem from="1540200737090" duration="537000" />
+      <workItem from="1540520857688" duration="598000" />
+      <workItem from="1540775358713" duration="361000" />
+      <workItem from="1541041584536" duration="9142000" />
+      <workItem from="1541118858920" duration="661000" />
+      <workItem from="1541578375662" duration="116000" />
+      <workItem from="1541578594308" duration="2000" />
+      <workItem from="1541578606643" duration="3422000" />
+      <workItem from="1541639576151" duration="21000" />
+      <workItem from="1541647678041" duration="491000" />
+      <workItem from="1541661556019" duration="4222000" />
+      <workItem from="1541722895612" duration="1194000" />
+      <workItem from="1541726161329" duration="568000" />
+      <workItem from="1542339017844" duration="10859000" />
+      <workItem from="1542592992356" duration="1320000" />
+      <workItem from="1542596281121" duration="2083000" />
+      <workItem from="1542613458634" duration="3554000" />
+      <workItem from="1542675480034" duration="1983000" />
+      <workItem from="1543906806386" duration="6382000" />
+      <workItem from="1543971481224" duration="19026000" />
+      <workItem from="1544056147858" duration="20610000" />
+      <workItem from="1544144746702" duration="19074000" />
+      <workItem from="1544403904915" duration="11090000" />
+      <workItem from="1544665641139" duration="174000" />
+      <workItem from="1545104083768" duration="5668000" />
+      <workItem from="1545180558413" duration="17924000" />
+      <workItem from="1545266656461" duration="17487000" />
+      <workItem from="1545352678885" duration="13938000" />
+      <workItem from="1545375208398" duration="54000" />
+      <workItem from="1545899082037" duration="4543000" />
+      <workItem from="1545957613781" duration="6574000" />
+      <workItem from="1546044055667" duration="23998000" />
+      <workItem from="1546388943019" duration="20959000" />
+      <workItem from="1546476016567" duration="14750000" />
+      <workItem from="1546562767600" duration="21081000" />
+      <workItem from="1546821426544" duration="16438000" />
+      <workItem from="1546908242085" duration="614000" />
+      <workItem from="1546910502514" duration="16913000" />
+      <workItem from="1546993692648" duration="18423000" />
+      <workItem from="1547081303439" duration="2462000" />
+      <workItem from="1547088073314" duration="607000" />
+      <workItem from="1547167138626" duration="11863000" />
+      <workItem from="1547426279903" duration="22309000" />
+      <workItem from="1547512971677" duration="13247000" />
+      <workItem from="1547599819501" duration="15920000" />
+      <workItem from="1547686090572" duration="16039000" />
+      <workItem from="1547772237476" duration="1326000" />
+      <workItem from="1548233915242" duration="213000" />
+      <workItem from="1548830398915" duration="7551000" />
+      <workItem from="1550452070211" duration="8708000" />
+      <workItem from="1550538251840" duration="18669000" />
+      <workItem from="1550623232400" duration="14559000" />
+      <workItem from="1550709728883" duration="14831000" />
+      <workItem from="1550795864263" duration="20975000" />
+      <workItem from="1551055465480" duration="13886000" />
+      <workItem from="1551142521766" duration="18051000" />
+      <workItem from="1551228185338" duration="11931000" />
+      <workItem from="1555481912088" duration="932000" />
+      <workItem from="1556158313834" duration="1886000" />
+      <workItem from="1557730212255" duration="6538000" />
+      <workItem from="1557794649090" duration="20749000" />
+      <workItem from="1557883427031" duration="13168000" />
+      <workItem from="1557969603330" duration="1992000" />
+      <workItem from="1558509377844" duration="4358000" />
+      <workItem from="1558577731653" duration="2694000" />
+      <workItem from="1558600286697" duration="1513000" />
+      <workItem from="1559011446873" duration="14506000" />
+      <workItem from="1559090615556" duration="229000" />
+      <workItem from="1559101860854" duration="29000" />
+      <workItem from="1559207100620" duration="1068000" />
+      <workItem from="1559263678959" duration="7158000" />
+      <workItem from="1559523977739" duration="23376000" />
+      <workItem from="1559608409704" duration="17222000" />
+      <workItem from="1559694803538" duration="23996000" />
+      <workItem from="1559782643787" duration="16907000" />
+      <workItem from="1560127486939" duration="3693000" />
+      <workItem from="1560133194232" duration="1406000" />
+      <workItem from="1560136325146" duration="1834000" />
+      <workItem from="1560220707010" duration="15701000" />
+      <workItem from="1560306806992" duration="9319000" />
+      <workItem from="1560332155187" duration="72000" />
+      <workItem from="1560389121276" duration="149000" />
+      <workItem from="1560478639678" duration="8879000" />
+      <workItem from="1560736464714" duration="23000" />
+      <workItem from="1560925284205" duration="8699000" />
+      <workItem from="1560995297960" duration="12568000" />
+      <workItem from="1561085337293" duration="781000" />
+      <workItem from="1561108673678" duration="1229000" />
+      <workItem from="1561344670171" duration="2643000" />
+      <workItem from="1562123144248" duration="9517000" />
+      <workItem from="1563431270203" duration="689000" />
+      <workItem from="1563499219575" duration="21290000" />
+      <workItem from="1563756826986" duration="3391000" />
+      <workItem from="1563762917570" duration="316000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改项目名称">
+      <created>1541648111958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541648111958</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1541726685108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541726685108</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1542352612387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542352612387</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1542614720089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542614720089</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1545900728814</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545900728814</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1545965805166</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545965805166</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1546398387094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546398387094</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1546398750202</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546398750202</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1557801901956</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557801901956</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1557804873297</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557804873297</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1557883550033</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557883550033</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1558513669358</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558513669358</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1558578760250</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1558578760250</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1558600480189</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1558600480189</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1559015418147</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559015418147</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1559025757248</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559025757248</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1559549817691</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559549817691</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1559552269248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559552269248</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1559552604589</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559552604589</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1559640874470</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559640874470</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1559705519751</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1559705519751</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1559715960573</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1559715960573</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1559725834151</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1559725834151</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1559788813558</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1559788813558</updated>
+    </task>
+    <task id="LOCAL-00025">
+      <created>1560130488755</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1560130488756</updated>
+    </task>
+    <task id="LOCAL-00026">
+      <created>1560133856932</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560133856932</updated>
+    </task>
+    <task id="LOCAL-00027">
+      <created>1560134477660</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1560134477660</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1560309341252</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1560309341252</updated>
+    </task>
+    <task id="LOCAL-00029">
+      <created>1560320782431</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1560320782431</updated>
+    </task>
+    <task id="LOCAL-00030">
+      <created>1560481403089</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1560481403089</updated>
+    </task>
+    <task id="LOCAL-00031">
+      <created>1560926099804</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1560926099804</updated>
+    </task>
+    <task id="LOCAL-00032">
+      <created>1560995426768</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1560995426768</updated>
+    </task>
+    <task id="LOCAL-00033">
+      <created>1561344845526</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1561344845526</updated>
+    </task>
+    <task id="LOCAL-00034">
+      <created>1561345635803</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1561345635803</updated>
+    </task>
+    <task id="LOCAL-00035">
+      <created>1561345775542</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1561345775542</updated>
+    </task>
+    <task id="LOCAL-00036">
+      <created>1563504249106</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1563504249106</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="790521000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26765016" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5083333" side_tool="true" visible="true" weight="0.17320262" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49166667" weight="0.31880978" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29738563" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.11873639" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改项目名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webpages/出版机构.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagesTemp/ad3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="127" column="99" lean-forward="true" selection-start-line="127" selection-start-column="99" selection-end-line="127" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/频道/客户端.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/登录页面.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagesTemp/channel/Tchannel1.jpg" />
+    <entry file="file://$PROJECT_DIR$/imagesTemp/channel/Tchannel.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/channel/channel4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/检索页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="1354" column="24" lean-forward="true" selection-start-line="1354" selection-start-column="24" selection-end-line="1354" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/channel/channel5-banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/channel/channel7.banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/channel/channel8-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/channel/channel8-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/channel/channel8-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/channel/channel8-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc3-book6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc3-book5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc3-book4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc3-book3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc3-book2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc3-book1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc3-book7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc3-book9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc3-book8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/cc6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/频道/热读榜单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/频道/精选书单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/channel/channel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/频道/好书品读.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/频道/新书上架.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/首页-新.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10811">
+          <caret line="569" column="39" selection-start-line="569" selection-start-column="39" selection-end-line="569" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/platform.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/书单/这些年我们都忘了好好爱自己.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/书单/我们为什么读经典.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/书单/读诗的你.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/书单/生活这么苦，你需要一点甜.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="83" lean-forward="true" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/书单/内心越富足，生活越明媚.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="66" lean-forward="true" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/书单/多希望你和我之间.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/e1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/e2-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/e3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/e1-c.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/booklist/images/e4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/书单/为什么你的旅行跳不出走马观花的怪圈.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="56" column="105" selection-start-line="56" selection-start-column="105" selection-end-line="56" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/channel/channel3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/booklist/booklist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpages/书单/为什么成就越高.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="145" column="40" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#2410#2416#0" expanded="true" />
+            <element signature="e#2416#2422#0" expanded="true" />
+            <element signature="e#2422#2428#0" expanded="true" />
+            <element signature="e#2428#2434#0" expanded="true" />
+            <element signature="e#2548#2554#0" expanded="true" />
+            <element signature="e#2554#2560#0" expanded="true" />
+            <element signature="e#2560#2566#0" expanded="true" />
+            <element signature="e#2566#2572#0" expanded="true" />
+            <element signature="e#2686#2692#0" expanded="true" />
+            <element signature="e#2692#2698#0" expanded="true" />
+            <element signature="e#2698#2704#0" expanded="true" />
+            <element signature="e#2704#2710#0" expanded="true" />
+            <element signature="e#2829#2835#0" expanded="true" />
+            <element signature="e#2835#2841#0" expanded="true" />
+            <element signature="e#2841#2847#0" expanded="true" />
+            <element signature="e#2847#2853#0" expanded="true" />
+            <element signature="e#3009#3015#0" expanded="true" />
+            <element signature="e#3015#3021#0" expanded="true" />
+            <element signature="e#3021#3027#0" expanded="true" />
+            <element signature="e#3027#3033#0" expanded="true" />
+            <element signature="e#3154#3160#0" expanded="true" />
+            <element signature="e#3160#3166#0" expanded="true" />
+            <element signature="e#3166#3172#0" expanded="true" />
+            <element signature="e#3172#3178#0" expanded="true" />
+            <element signature="e#3820#3826#0" expanded="true" />
+            <element signature="e#3826#3832#0" expanded="true" />
+            <element signature="e#3832#3838#0" expanded="true" />
+            <element signature="e#3838#3844#0" expanded="true" />
+            <element signature="e#3867#3873#0" expanded="true" />
+            <element signature="e#3873#3879#0" expanded="true" />
+            <element signature="e#3879#3885#0" expanded="true" />
+            <element signature="e#3885#3891#0" expanded="true" />
+            <element signature="e#3947#3953#0" expanded="true" />
+            <element signature="e#3953#3959#0" expanded="true" />
+            <element signature="e#3959#3965#0" expanded="true" />
+            <element signature="e#3965#3971#0" expanded="true" />
+            <element signature="e#3994#4000#0" expanded="true" />
+            <element signature="e#4000#4006#0" expanded="true" />
+            <element signature="e#4006#4012#0" expanded="true" />
+            <element signature="e#4012#4018#0" expanded="true" />
+            <element signature="e#4098#4104#0" expanded="true" />
+            <element signature="e#4104#4110#0" expanded="true" />
+            <element signature="e#4110#4116#0" expanded="true" />
+            <element signature="e#4116#4122#0" expanded="true" />
+            <element signature="e#4195#4201#0" expanded="true" />
+            <element signature="e#4201#4207#0" expanded="true" />
+            <element signature="e#4207#4213#0" expanded="true" />
+            <element signature="e#4213#4219#0" expanded="true" />
+            <element signature="e#4306#4312#0" expanded="true" />
+            <element signature="e#4312#4318#0" expanded="true" />
+            <element signature="e#4318#4324#0" expanded="true" />
+            <element signature="e#4324#4330#0" expanded="true" />
+            <element signature="e#4415#4421#0" expanded="true" />
+            <element signature="e#4421#4427#0" expanded="true" />
+            <element signature="e#4427#4433#0" expanded="true" />
+            <element signature="e#4433#4439#0" expanded="true" />
+            <element signature="e#4546#4552#0" expanded="true" />
+            <element signature="e#4552#4558#0" expanded="true" />
+            <element signature="e#4558#4564#0" expanded="true" />
+            <element signature="e#4564#4570#0" expanded="true" />
+            <element signature="e#4664#4670#0" expanded="true" />
+            <element signature="e#4670#4676#0" expanded="true" />
+            <element signature="e#4676#4682#0" expanded="true" />
+            <element signature="e#4682#4688#0" expanded="true" />
+            <element signature="e#4756#4762#0" expanded="true" />
+            <element signature="e#4762#4768#0" expanded="true" />
+            <element signature="e#4768#4774#0" expanded="true" />
+            <element signature="e#4774#4780#0" expanded="true" />
+            <element signature="e#5476#5482#0" expanded="true" />
+            <element signature="e#5482#5488#0" expanded="true" />
+            <element signature="e#5488#5494#0" expanded="true" />
+            <element signature="e#5494#5500#0" expanded="true" />
+            <element signature="e#5624#5630#0" expanded="true" />
+            <element signature="e#5630#5636#0" expanded="true" />
+            <element signature="e#5636#5642#0" expanded="true" />
+            <element signature="e#5642#5648#0" expanded="true" />
+            <element signature="e#5794#5800#0" expanded="true" />
+            <element signature="e#5800#5806#0" expanded="true" />
+            <element signature="e#5806#5812#0" expanded="true" />
+            <element signature="e#5812#5818#0" expanded="true" />
+            <element signature="e#6039#6045#0" expanded="true" />
+            <element signature="e#6045#6051#0" expanded="true" />
+            <element signature="e#6051#6057#0" expanded="true" />
+            <element signature="e#6057#6063#0" expanded="true" />
+            <element signature="e#6864#6870#0" expanded="true" />
+            <element signature="e#6870#6876#0" expanded="true" />
+            <element signature="e#6876#6882#0" expanded="true" />
+            <element signature="e#6882#6888#0" expanded="true" />
+            <element signature="e#6942#6948#0" expanded="true" />
+            <element signature="e#6948#6954#0" expanded="true" />
+            <element signature="e#6954#6960#0" expanded="true" />
+            <element signature="e#6960#6966#0" expanded="true" />
+            <element signature="e#7046#7052#0" expanded="true" />
+            <element signature="e#7052#7058#0" expanded="true" />
+            <element signature="e#7058#7064#0" expanded="true" />
+            <element signature="e#7064#7070#0" expanded="true" />
+            <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

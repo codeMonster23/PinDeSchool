@@ -1,0 +1,588 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>图书出版发行平台</title>
+    <link href="../css/global.css" rel="stylesheet" type="text/css">
+    <link href="../css/platform.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/placeholder.js"></script>
+    <script src="../js/slide.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="w1200Auto clearfix">
+            <div class="left logo"><a href="">中国知网</a></div>
+<!--             <div class="left search clearfix">
+                <input type="text" placeholder="请输入关键词">
+                <a href="" class="searchBtn">搜索</a>
+            </div> -->
+            <div class="right">
+                <span>欢迎您：2158468753 </span><a href="">退出</a><a href="">购物车</a>|<a href="">阅读器</a>
+            </div>
+        </div>
+    </div>
+    <div class="new-topBanner">
+        <div class="w1200Auto clearfix">
+            <div class="left booklogo"><a href=""></a></div>
+            <div class="search-words left">
+                <div class="logoWords"></div>
+                <div class="topSearch clearfix">
+                    <input type="text" placeholder="请输入图书名称">
+                    <div class="dropdown">
+                        <p>书名</p>
+                        <ul>
+                            <li><a href="">书名</a></li>
+                            <li><a href="">作者</a></li>
+                            <li><a href="">出版社</a></li>
+                        </ul>
+                    </div>
+                    <a href="" class="searchBtn">搜索</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="main detaiWrap w1200Auto clearfix">
+        <div class="breadrcrumb">
+            <a href="">首页</a> &gt; <a href="">人文社科</a> &gt; <span>首页文史博览</span>
+        </div>
+        <div class="baseinfo clearfix">
+            <div class="left cover">
+                <div class="small"><img src="../imagesTemp/recommend.jpg" alt=""/></div>
+                <div class="big"><img src="../imagesTemp/recommend.jpg" alt=""/><div class="watermark"></div></div>
+                <span class="icon-zoom"></span>
+            </div>
+            <div class="left content">
+                <div class="name">人力资源管理从新手到总监：高频案例解答精选</div>
+                <div class="intro">一场来不及好好相爱的青春伤痛绝恋，从今以后，我们只有死别，没有生离，时隔多年，你是否还记得被称作“怪物”的赵亦树？</div>
+                <div class="author"><a href="">李志勇</a>  著</div>
+                <div class="discount clearfix">
+                    <div class="left">限时免费在线阅读</div>
+                    <div class="right">仅剩：<span>11</span>&nbsp;天&nbsp;<span>20</span>&nbsp;时&nbsp;<span>26</span>&nbsp;分&nbsp;<span>26</span>&nbsp;秒</div>
+                </div>
+                <div class="price">电子版价格：<span class="count">￥0.99</span></div>
+                <div class="description">
+                    <div class="item"><span class="w320">出版社：<a href="">《中国学术期刊（光盘版）》电子杂志社有限公司</a></span><span>出版时间：2018-05-17</span></div>
+                    <div class="item"><span  class="w320">ISBN：9787569916225</span><span>字数：25万字</span></div>
+                    <!-- <div class="item">所属分类：<a href="">数字内容</a> > <a href="">管理</a> > <a href="">人力资源管理</a></div> -->
+                </div>
+                <div class="extra clearfix">
+                    <div class="left btnsWrap clearfix">
+                        <!-- <a target="_blank" href="" class="starrysky"></a> -->
+                        <!-- <a href="" class="read">在线阅读</a> -->
+                        <a href="" class="buy">立即购买</a>
+                        <div class="left btnsGroup">
+                            <a href="">免费阅读</a><a href="">下载本书</a>
+                        </div>
+                        <div class="pop"><img src="../images/pop.png" alt=""></div>
+                    </div>
+                    <script>
+                        //鼠标移动到第一个按钮，显示知网星空
+                        $(".starrysky").hover(function(){
+                            $(".extra .pop").show();
+                        }, function(){
+                            $(".extra .pop").hide();
+                        })
+                    </script>
+                    <div class="left shareWrap">
+                        <span class="icon">分享</span>
+                        <div class="shareBox">
+                            <a href="#"><img src="../images/qq.png"></a>
+                            <a href="#"><img src="../images/wx.png"></a>
+                            <a href="#"><img src="../images/wb.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right supports">
+                <div class="device">
+                    <div class="title"><span>支持的设备</span></div>
+                    <ul class="clearfix">
+                        <li>
+                            <img src="../images/icon10.png" alt="">
+                            <p>Windows</p>
+                        </li>
+                        <li>
+                            <img src="../images/icon11.png" alt="">
+                            <p>iPhone</p>
+                        </li>
+                        <li>
+                            <img src="../images/icon13.png" alt="">
+                            <p>Android</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="download">
+                    <div class="title"><span>客户端下载</span></div>
+                    <div class="ewmWrap">
+                        <div class="ewmBox">
+                            <img src="../images/ewm.jpg" width="133" height="133" alt="">
+                        </div>
+                        <p>下载客户端，随时随轻松阅读</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recommendReading">
+            <div class="m-title">推荐阅读</div>
+            <div class="slide-wrapper" id="slide1">
+                <div class="slide">
+                    <ul class="imageList">
+                        <li>
+                            <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" height="128" alt=""></a></div>
+                            <p><a href="">与万物对话：霍金传</a></p>
+                        </li>
+                        <li>
+                            <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" height="128" alt=""></a></div>
+                            <p><a href="">与万物对话：霍金传</a></p>
+                        </li>
+                        <li>
+                            <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" height="128" alt=""></a></div>
+                            <p><a href="">与万物对话：霍金传</a></p>
+                        </li>
+                        <li>
+                            <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" height="128" alt=""></a></div>
+                            <p><a href="">与万物对话：霍金传</a></p>
+                        </li>
+                        <li>
+                            <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" height="128" alt=""></a></div>
+                            <p><a href="">与万物对话：霍金传</a></p>
+                        </li>
+                        <li>
+                            <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" height="128" alt=""></a></div>
+                            <p><a href="">与万物对话：霍金传</a></p>
+                        </li>
+                        <li>
+                            <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" height="128" alt=""></a></div>
+                            <p><a href="">与万物对话：霍金传</a></p>
+                        </li>
+                        <li>
+                            <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" height="128" alt=""></a></div>
+                            <p><a href="">与万物对话：霍金传</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btns">
+                    <a href="javascript:;" class="leftBtn"></a>
+                    <a href="javascript:;" class="rightBtn"></a>
+                </div>
+            </div>
+        </div>
+        <div class="column clearfix">
+            <div class="left rank">
+                <div class="m-title">同类图书畅销榜</div>
+                <div class="list">
+                    <div class="item cur">
+                        <span class="num red">1.</span>
+                        <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" width="80" height="114" alt=""></a></div>
+                        <span class="text"><a href="">跟乐嘉学性格色彩</a></span>
+                    </div>
+                    <div class="item">
+                        <span class="num red">2.</span>
+                        <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" width="80" height="114" alt=""></a></div>
+                        <span class="text"><a href="">你的善良必须有点锋芒</a></span>
+                    </div>
+                    <div class="item">
+                        <span class="num red">3.</span>
+                        <div class="left pic"><a href=""><img src="../imagesTemp/recommend.jpg" width="80" height="114" alt=""></a></div>
+                        <span class="text"><a href="">领导力21法则:追随这些法则,人们就会追随你</a></span>
+                    </div>
+                    <div class="item">
+                        <span class="num">4.</span>
+                        <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" width="80" height="114" alt=""></a></div>
+                        <span class="text"><a href="">你的能力，要学会用故事讲出来（一本让你的能力不再埋没的书</a></span>
+                    </div>
+                    <div class="item">
+                        <span class="num">5.</span>
+                        <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" width="80" height="114" alt=""></a></div>
+                        <span class="text"><a href="">余生很长，何必慌张（林熙新书）</a></span>
+                    </div>
+                    <div class="item">
+                        <span class="num">6.</span>
+                        <div class="pic"><a href=""><img src="../imagesTemp/recommend.jpg" width="80" height="114" alt=""></a></div>
+                        <span class="text"><a href="">余生很长，何必慌张（林熙新书）</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="right otherinfo">
+                <div id="m-title" class="m-title">
+                    <ul>
+                        <li class="cur">简介</li>
+                        <li>作者</li>
+                        <li>目录</li>
+                        <li>专家导读</li>
+                        <li>书友品评</li>
+                    </ul>
+                    <div class="btns">
+                        <a href="#" class="btn1">在线阅读</a>
+                        <a href="#" class="btn2">立即购买</a>
+                    </div>
+                </div>
+                <script>
+                    //页面滚动到此处时，悬浮显示
+                    var mt = $("#m-title");
+                    $(document).scroll(function(){
+                        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+                        if(scrollTop >= 930){
+                            mt.addClass("m-title-fixed");
+                        }else{
+                            mt.removeClass("m-title-fixed");
+                        }
+                    })
+                </script>
+                <div class="tabcontent">
+                    <div class="abstract">
+                        《人力资源管理从新手到总监：高频案例解答精选》一书是三茅人力资源网超人气专栏作者李志勇26年工作经验的全面总结，全书精选了160个人资工作中zui受关注的问题，提供可落地实施的解答，同时也给人某些启迪，带领读者向深层次思考，不唯先，不唯书，逐步树立自己的人资工作思路、做事方法。本书既适合初入职场的人资专业毕业生，也适用于职场中途转入人资领域的同行，同样适用于高校教学时案例讲解，也可供用人单位的人资经理、人资总监或其他中高层管理人士阅读。
+                        <div class="recommendWords" style="margin-top: 32px;">
+                            <div class="title"><span>推荐语</span></div>
+                            <div class="content" style="padding-top: 12px;">李志勇，人力资源管理硕士，一级人力资源管理师。有超过26年的人资工作经验，曾在国企、民企及外资企业任职工作，历经电子、机械、汽车、房产、物业、光学、艺术品、印刷等行业。2014年起以“秉骏哥李志勇”之名在三茅人力资源网开设专栏，截止目前以超过730万的访问量，高居专栏作家首位。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <div class="title"><span>作者</span></div>
+                        <div class="content">李志勇，人力资源管理硕士，一级人力资源管理师。有超过26年的人资工作经验，曾在国企、民企及外资企业任职工作，历经电子、机械、汽车、房产、物业、光学、艺术品、印刷等行业。2014年起以“秉骏哥李志勇”之名在三茅人力资源网开设专栏，截止目前以超过730万的访问量，高居专栏作家首位。
+                        </div>
+                    </div>
+                    <div class="catalogue">
+                        <div class="title"><span>目录</span></div>
+                        <div class="content">
+                            <p>版权信息</p>
+                            <p>前言</p>
+                            <p>第一部分 招聘管理</p>
+                            <p>电话预约求职者有哪些技巧？如何才能提高邀约面试到场率？</p>
+                            <p>已经约定求职者入职，领导突然空降人员，怎么处理？</p>
+                            <p>业务部门要留试用不合格员工，怎么办？</p>
+                            <p>电话预约求职者有哪些技巧？如何才能提高邀约面试到场率？</p>
+                            <p>已经约定求职者入职，领导突然空降人员，怎么处理？</p>
+                            <p>业务部门要留试用不合格员工，怎么办？</p>
+                            <p>电话预约求职者有哪些技巧？如何才能提高邀约面试到场率？</p>
+                            <p>已经约定求职者入职，领导突然空降人员，怎么处理？</p>
+                            <p>业务部门要留试用不合格员工，怎么办？</p>
+                            <p>电话预约求职者有哪些技巧？如何才能提高邀约面试到场率？</p>
+                            <p>已经约定求职者入职，领导突然空降人员，怎么处理？</p>
+                            <p>业务部门要留试用不合格员工，怎么办？</p>
+                            <p>电话预约求职者有哪些技巧？如何才能提高邀约面试到场率？</p>
+                            <p>已经约定求职者入职，领导突然空降人员，怎么处理？</p>
+                            <p>业务部门要留试用不合格员工，怎么办？</p>
+                            <p>电话预约求职者有哪些技巧？如何才能提高邀约面试到场率？</p>
+                            <p>已经约定求职者入职，领导突然空降人员，怎么处理？</p>
+                            <p>业务部门要留试用不合格员工，怎么办？</p>
+                            <p>电话预约求职者有哪些技巧？如何才能提高邀约面试到场率？</p>
+                            <p>已经约定求职者入职，领导突然空降人员，怎么处理？</p>
+                            <p>业务部门要留试用不合格员工，怎么办？</p>
+                            <p>电话预约求职者有哪些技巧？如何才能提高邀约面试到场率？</p>
+                            <p>已经约定求职者入职，领导突然空降人员，怎么处理？</p>
+                            <p>业务部门要留试用不合格员工，怎么办？</p>
+                            <p>电话预约求职者有哪些技巧？如何才能提高邀约面试到场率？</p>
+                            <p>已经约定求职者入职，领导突然空降人员，怎么处理？</p>
+                            <p>业务部门要留试用不合格员工，怎么办？</p>
+                            <a href="" class="showAll">查看全部 ↓</a>
+                        </div>
+                    </div>
+                    <div class="comment expertGuide">
+                        <div class="title"><span>专家导读</span></div>
+                        <div class="list">
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <a href="" target="_blank"><img src="../imagesTemp/avatar.jpg" alt=""></a>
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <a class="left nickname" href="" target="_blank">吴博文;刘承恩</a>
+                                        <span class="left time">2018-04-09</span>
+                                    </div>
+                                    <a class="bookname" href="" target="_blank">《社会主义管理的历史》</a>
+                                    <div class="desc">这是一本丝毫不掩饰野心的书，和《第三个警察》几乎一样，在开头就把震撼的事件抛出，全文随着一个从小就行恶的男孩坦诚地回顾自己的一生，将读者一步步拖入一个对亲情...<a href="">【详细】</a></div>
+                                    <a class="source" href="" target="_blank">《意林》2018年第4期</a>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <a href="" target="_blank"><img src="../imagesTemp/avatar.jpg" alt=""></a>
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <a class="left nickname" href="" target="_blank">吴博文;刘承恩</a>
+                                        <span class="left time">2018-04-09</span>
+                                    </div>
+                                    <a class="bookname" href="" target="_blank">《社会主义管理的历史》</a>
+                                    <div class="desc">这是一本丝毫不掩饰野心的书，和《第三个警察》几乎一样，在开头就把震撼的事件抛出，全文随着一个从小就行恶的男孩坦诚地回顾自己的一生，将读者一步步拖入一个对亲情...<a href="">【详细】</a></div>
+                                    <a class="source" href="" target="_blank">《意林》2018年第4期</a>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <a href="" target="_blank"><img src="../imagesTemp/avatar.jpg" alt=""></a>
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <a class="left nickname" href="" target="_blank">吴博文;刘承恩</a>
+                                        <span class="left time">2018-04-09</span>
+                                    </div>
+                                    <a class="bookname" href="" target="_blank">《社会主义管理的历史》</a>
+                                    <div class="desc">这是一本丝毫不掩饰野心的书，和《第三个警察》几乎一样，在开头就把震撼的事件抛出，全文随着一个从小就行恶的男孩坦诚地回顾自己的一生，将读者一步步拖入一个对亲情...<a href="">【详细】</a></div>
+                                    <a class="source" href="" target="_blank">《意林》2018年第4期</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="javascript:;" class="loadingMore">查看更多▼</a>
+                    </div>
+                    <div class="comment">
+                        <div class="title clearfix"><span class="left">书友品评</span><span class="right edit">撰写品评</span></div>
+                        <div class="list">
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">小说毫不畏缩地讲述了当一个孩子在充满恨与痛苦的环境下成长的故事，就像这句“我就像一个被狼养大的孩子，最终成为了我自己。”这本小说剧情简洁，对话式的风格给人以一种错就。
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">这是一本丝毫不掩饰野心的书，和《第三个警察》几乎一样，在开头就把震撼的事件抛出，全文随着一个从小就行恶的男孩坦诚地回顾自己的一生，将读者一步步拖入一个对亲情、信仰、传统、慈爱、善良、权力的正义性，公正产生怀疑的泥沼，主人公仿佛是一只流着眼泪的鳄鱼，主人公仿佛是一只流着眼泪的鳄鱼，外...</div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">小说毫不畏缩地讲述了当一个孩子在充满恨与痛苦的环境下成长的故事，就像这句“我就像一个被狼养大的孩子，最终成为了我自己。”这本小说剧情简洁，对话式的风格给人以一种错就。
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">这是一本丝毫不掩饰野心的书，和《第三个警察》几乎一样，在开头就把震撼的事件抛出，全文随着一个从小就行恶的男孩坦诚地回顾自己的一生，将读者一步步拖入一个对亲情、信仰、传统、慈爱、善良、权力的正义性，公正产生怀疑的泥沼，主人公仿佛是一只流着眼泪的鳄鱼，主人公仿佛是一只流着眼泪的鳄鱼，外...</div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">小说毫不畏缩地讲述了当一个孩子在充满恨与痛苦的环境下成长的故事，就像这句“我就像一个被狼养大的孩子，最终成为了我自己。”这本小说剧情简洁，对话式的风格给人以一种错就。</div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">这是一本丝毫不掩饰野心的书，和《第三个警察》几乎一样，在开头就把震撼的事件抛出，全文随着一个从小就行恶的男孩坦诚地回顾自己的一生，将读者一步步拖入一个对亲情、信仰、传统、慈爱、善良、权力的正义性，公正产生怀疑的泥沼，主人公仿佛是一只流着眼泪的鳄鱼，主人公仿佛是一只流着眼泪的鳄鱼，外...</div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">小说毫不畏缩地讲述了当一个孩子在充满恨与痛苦的环境下成长的故事，就像这句“我就像一个被狼养大的孩子，最终成为了我自己。”这本小说剧情简洁，对话式的风格给人以一种错就。</div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">这是一本丝毫不掩饰野心的书，和《第三个警察》几乎一样，在开头就把震撼的事件抛出，全文随着一个从小就行恶的男孩坦诚地回顾自己的一生，将读者一步步拖入一个对亲情、信仰、传统、慈爱、善良、权力的正义性，公正产生怀疑的泥沼，主人公仿佛是一只流着眼泪的鳄鱼，主人公仿佛是一只流着眼泪的鳄鱼，外...</div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">小说毫不畏缩地讲述了当一个孩子在充满恨与痛苦的环境下成长的故事，就像这句“我就像一个被狼养大的孩子，最终成为了我自己。”这本小说剧情简洁，对话式的风格给人以一种错就。
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">这是一本丝毫不掩饰野心的书，和《第三个警察》几乎一样，在开头就把震撼的事件抛出，全文随着一个从小就行恶的男孩坦诚地回顾自己的一生，将读者一步步拖入一个对亲情、信仰、传统、慈爱、善良、权力的正义性，公正产生怀疑的泥沼，主人公仿佛是一只流着眼泪的鳄鱼，主人公仿佛是一只流着眼泪的鳄鱼，外...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item clearfix">
+                                <div class="left avatar">
+                                    <img src="../imagesTemp/avatar.jpg" alt="">
+                                </div>
+                                <div class="left content">
+                                    <div class="heading clearfix">
+                                        <span class="left nickname">天空之城</span>
+                                        <span class="left time">2018-04-09&nbsp;&nbsp;20:12:14</span>
+                                    </div>
+                                    <div class="desc">小说毫不畏缩地讲述了当一个孩子在充满恨与痛苦的环境下成长的故事，就像这句“我就像一个被狼养大的孩子，最终成为了我自己。”这本小说剧情简洁，对话式的风格给人以一种错就。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="javascript:;" class="loadingMore">查看更多▼</a>
+                        <div class="writeComment">
+                            <div class="title"></div>
+                            <div class="textField">
+                                <textarea placeholder="说两句吧..."></textarea>
+                                <span class="count"><i>0</i>/400</span>
+                                <div class="btnWrap clearfix"><a href="javascript:;" class="right submit">提交</a></div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="w1200Auto">
+            <div class="links">
+                <a href="#" target="_blank" title="">中国知网</a>
+                |
+                <a href="#" target="_blank" title="">充值中心</a>
+                |
+                <a href="#" target="_blank" title="">购买知网卡</a>
+                |
+                <a href="#" target="_blank" title="">安装阅读器</a>
+                |
+                <a href="#" target="_blank" title="">在线客服</a>
+                |
+                <a href="#" target="_blank" title="">帮助中心</a>
+            </div>
+            <div class="info">
+                <div class="left s1">
+                    <p>出版：《中国学术期刊（光盘版）》电子杂志社有限公司</p>
+                    <p>地址：北京清华大学84-48信箱  大众知识服务</p>
+                    <p>京ICP证040431号  网络出版服务许可证（总）网出证（京）字第271号</p>
+                    <p>经营性网站备案信息</p>
+                </div>
+                <div class="left s2">   
+                    <p>服务咨询：400-810-9888 400-819-9993</p>
+                    <p>订购咨询：400-819-9993</p>
+                    <p>传真：010-62780361</p>
+                    <p>京公网安备 11010802020460号</p>
+                </div>
+                <div class="right s3">
+                    <img src="../images/copyright1.png" alt="">
+                    <img src="../images/copyright2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 轮播图
+        slide("#slide1",160,2400,400);
+
+        // 分享
+        var flag=true;
+        $('.shareWrap .icon').click(function () {
+            if(flag){
+                $(this).siblings('.shareBox').css('z-index',1).show().animate({right:"-102px",opacity:1},200);
+                flag=false;
+            }else{
+                $(this).siblings('.shareBox').show().animate({right:"-90px",opacity:0},200);
+                flag=true;
+            }
+        });
+
+        $('.detaiWrap .otherinfo .m-title li').click(function () {
+            var i=$(this).index();
+            $(this).addClass('cur').siblings().removeClass('cur');
+            var $content=$('.tabcontent').children();
+            if(mt.hasClass("m-title-fixed")){
+                if(i==0){
+                    $("html,body").stop(true).animate({"scrollTop":$content.eq(0).offset().top},1000);
+                }else{
+                    $("html,body").stop(true).animate({"scrollTop":$content.eq(i).offset().top-60},1000);
+                }
+            }else{
+                if(i==0){
+                    $("html,body").stop(true).animate({"scrollTop":$content.eq(0).offset().top-46},1000);
+                }else{
+                    $("html,body").stop(true).animate({"scrollTop":$content.eq(i).offset().top-106},1000);
+                }
+            }  
+        });
+
+        // $('.detaiWrap .baseinfo .cover .small').hover(function(){
+        //     $(this).siblings('.big').stop(true).fadeToggle();
+        // })
+        $('.detaiWrap .baseinfo .cover .small').mouseenter(function(){
+            $(this).siblings('.big').stop(true,true);
+            //判断元素是否正处于动画状态，如果当前没有进行动画，则添加新动画
+            if($(this).siblings('.big').is(":animated")==false){
+                $(this).siblings('.big').fadeIn();  
+            }
+        });
+        $('.detaiWrap .baseinfo .cover').mouseleave(function(){
+            $(this).find('.big').fadeOut(500);  
+        });
+
+        var info = $('.detaiWrap .baseinfo .content');
+        var extra = info.find('.extra');
+        var infoHeight = info.height();
+        if(infoHeight<350){
+            info.height(350);
+            extra.css({'position':'absolute','bottom':0});
+        }
+        // 撰写品评点击定位
+        var editBtn = $('.detaiWrap .otherinfo .title .edit');
+        var writeComment = $('.detaiWrap .otherinfo .writeComment');
+        var writeCommentOffsetTop=writeComment.offset().top;
+        editBtn.click(function(){
+            $('html,body').animate({'scrollTop':writeCommentOffsetTop},1000);
+        })
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+@charset "utf-8";
+.header{ height:71px; background-color:#424242; min-width:1238px;font-family:"Microsoft Yahei"; }
+.header .logo{ margin-right:49px; font-size:0px;}
+.header .topNav{ font-size:18px; line-height:71px; margin-right:52px;}
+.header .topNav a{ color:#ffffff; text-decoration:none; margin-right:31px;}
+.header .search{ width:249px; height:37px; margin-top:18px; margin-right:29px; background:url(../../images/org/search.png) no-repeat;}
+.header .search input{ margin-left:17px; height:37px; width:195px; font-size:16px; font-family:"Microsoft Yahei"; }
+.header .search .btn{ width:20px; height:20px; background:url(../../images/org/searchbtn.png) no-repeat; margin-top:9px;}
+.header .status{ font-size:14px;line-height:71px; margin-right:27px; position:relative; }
+.header .status a{ float:left; color:#cec9b9; text-decoration:none;}
+.header .status .line{ width:0; font-size:0; height:16px; border-left:1px solid #989898; margin-left:12px; margin-right:12px; margin-top:28px;}
+.header .rzbtn{ font-size:14px; color:#ffffff; text-align:center; width:91px; height:30px; line-height:30px; background:#09A553; text-decoration:none; border-radius:15px; margin-top:20px;}
+.footer{ height:120px; min-width:1238px; background-color:#464342; padding-top:48px;}
+.footer p{ text-align:center; line-height:36px;font-family:"Microsoft Yahei"; font-size:14px; color:#B2B1B1; }
+/*品德书院*/
+.syheader{ height:71px; background-color:#424242;  min-width:1238px;font-family:"Microsoft YaHei";}
+.syheader .logo{ margin-right:100px; padding-left:15px;}
+.syheader .searchWrap{ margin-top:18px; height:37px; width:463px; background:url(../../images/org/bg1.png) no-repeat left center; margin-right:103px;}
+.syheader .searchWrap input{ padding:8px 0 8px 30px; line-height:20px; font-size:14px;font-family:"Microsoft YaHei"; width:289px; background-color:transparent; color:#ffffff;}
+.syheader .searchWrap input.colorGrey{ color:#CBCBCB;}
+.syheader .searchWrap .select{ width:87px; position:relative;font-size:14px; cursor:pointer; z-index:10;}
+.syheader .searchWrap .select p{ line-height:37px; color:#D5D5D5;background:url(../../images/org/icon1.png) no-repeat 65px center; text-align:center;}
+.syheader .searchWrap .select ul{ display:none;position:absolute; width:85px; border:1px solid #868786; background-color:#8C8C8C; z-index:100;}
+.syheader .searchWrap .select ul li{ line-height:26px; text-align:center; font-size:12px; color:#ffffff; border-bottom:#848484;}
+.syheader .searchWrap .select ul li:hover{ background-color:#C5C5C5; color:#343434;}
+
+
+
+.syheader .searchWrap .btn{ width:54px;height:37px; background:url(../../images/org/bg2.png) no-repeat;}
+.syheader .nav{ margin-top:18px; line-height:37px; color:#646464;font-size:14px; margin-right:22px;}
+.syheader .nav a{ color:#999999; }
+.syheader .nav a:hover{ color:#ffffff;}
+.syheader .nav span{ margin:0 10px;}
+.syheader .rbtn{font-size:14px; color:#ffffff; margin-top:22px; width:91px;height:30px; line-height:30px; text-align:center;border-radius:14px; background-color:#09A553;}
+/*书单头部*/
+.sdheader .logo{ margin-right:23px;}
+.sdheader .control { margin-top:21px;}
+.sdheader .control a{ width:89px; height:30px; text-align:center; line-height:30px;font-family:"Microsoft Yahei";font-size:16px; color:#ffffff; margin-left:10px; border:1px solid #09A553; border-radius:4px;}
+.sdheader .control .a1{ background-color:#09A553;}
+/*登录后*/
+.header .status1{ margin-right:6px;}
+.header .status .pname{ color:#CEC9B9; background:url(../../images/org/icon2.png) no-repeat right center; padding-right:12px;}
+.header .status ul{ display:none;position:absolute; top:54px; left:0; width:108px; height:120px; border:1px solid #424242; background-color:#ffffff; padding-top:10px; z-index:9999;}
+.header .status ul li{ line-height:24px; margin-bottom:5px; padding-left:20px;}
+.header .status ul li:hover{ background-color:#DEDEDE;}
+.header .status ul li a{ float:none;color:#393939;}
+.header .status ul li a span{ color:#E10000;}
